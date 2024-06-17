@@ -116,7 +116,6 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Biologist, Mammal ecology and conservation, R and Linux fan"
   location         : "Zipaquira, Colombia"
-  email            : null
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
