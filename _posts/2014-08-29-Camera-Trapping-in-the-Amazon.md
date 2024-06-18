@@ -8,7 +8,7 @@ tags:
 header:
   teaser: /images/Amazon/Canoa.jpg
   overlay_image: "/images/texture-feature-20.jpg"
-  caption: [Caqueta River at La Pedrera, Colombia. Diego J. Lizcano](http://500px.com/dlizcano)
+  caption: "[Caqueta River at La Pedrera, Colombia. Diego J. Lizcano](http://500px.com/dlizcano)"
 comments: false
 show_date: true
 share: true
