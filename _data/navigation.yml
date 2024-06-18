@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Tutorials"
-    url: /tutorials/
   - title: "About"
     url: /about/
+  - title: "Tutorials"
+    url: /tutorials/
   - title: "Posts"
-    url: /year-archive/
+    url: /collection-archive/
   - title: "Research"
     url: /research/
   # - title: "Sitemap"
