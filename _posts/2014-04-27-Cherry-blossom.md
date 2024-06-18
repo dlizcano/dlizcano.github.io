@@ -5,7 +5,7 @@ show_date: true
 share: true
 toc: true
 category: 
-  -Photo
+  - Photo
 tags: 
   - picture
   - DC
