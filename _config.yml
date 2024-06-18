@@ -127,7 +127,7 @@ author:
      icon: "fas fa-fw fa-link"
       # url: "https://dlizcano.github.io/"
    - label: "LinkedIn"
-     icon: "fas fa-fw fa-linkedin-square"
+     icon: "fas fa-fw fa-linkedin-in"
      url: "https://www.linkedin.com/in/lizcano/"
    - label: "Twitter"
      icon: "fab fa-fw fa-twitter-square"
