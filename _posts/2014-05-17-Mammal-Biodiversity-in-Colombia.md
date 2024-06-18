@@ -15,7 +15,7 @@ comments: true
 show_date: true
 share: true
 toc: true
-modified: 2014-05-18 13:15:36 -0400
+modified: 2014-05-18T13:15:36-0400
 ---
 
 ## Mammal records in Colombia
