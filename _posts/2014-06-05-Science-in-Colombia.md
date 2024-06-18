@@ -4,7 +4,7 @@ category:
 tags: 
   - R
   - ciencia
-  _ Colombia
+  - Colombia
 image:
   teaser: /images/Colciencias/calendar_small.png
   overlay_image: "/images/texture-feature-15.jpg"
