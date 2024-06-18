@@ -6,7 +6,7 @@ category:
   - github
 header:
   teaser: "/images/texture-feature-01.jpg"
-  overlay_image: "/images/texture-feature-01.jpg"
+  overlay_image: /images/texture-feature-01.jpg
   caption: "Photo credit: [Palm leave, Ecuador. Diego J. Lizcano](http://500px.com/dlizcano)"
   - update
 ---
