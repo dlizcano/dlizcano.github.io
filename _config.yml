@@ -116,7 +116,7 @@ analytics:
 # Site Author
 author:
   name             : "Diego J. Lizcano"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : images/bio-photo5.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Biologist, Mammal ecology and conservation, R and Linux fan"
   location         : "Zipaquira, Colombia"
   email            : 
