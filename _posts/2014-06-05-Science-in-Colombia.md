@@ -111,7 +111,8 @@ map3<-mapbase + geom_point(aes(x = lon, y = lat, group = FALSE), size=1,
 
 Generalmente muchos de los integrantes de los grupos son estudiantes . Así que una forma de ver el impacto de los grupos en la formación de investigadores, es contar a sus integrantes, los cuales no discrimine como activos o inactivos.  
 
-<iframe width="850" height="450" src="http://dlizcano.github.io/content/map_chart.html" frameborder="0"> </iframe>
+
+<iframe width="850" height="450" src="http://dlizcano.github.io/content/map_chart.html" frameborder="0" allowfullscreen> </iframe>
 
 
 ```r
