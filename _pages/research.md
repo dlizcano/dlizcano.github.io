@@ -1,21 +1,14 @@
 ---
-permalink: /research/
 title: Research
-tags: 
-  - about
-  - Diego Lizcano
-  - Mountain Tapir
-  - research
-  - Colombia
-  - Biodiversity monitoring
- header:
+permalink: /research/
+header:
   overlay_image: "/images/texture-feature-04.jpg"
   caption: "[Red Uakari Monkey Peru. Diego J. Lizcano](http://500px.com/dlizcano)"
-comments: true
-show_date: true
+comments: false
+show_date: false
 share: true
-toc: true
-modified: 2014-06-08T11:10:36-0400
+toc: false
+modified: 2024-06-08T11:10:36-0400
 ---
 For most of my research I have studied mammals and mountain tapirs, my favourite species.
 

@@ -1,9 +1,9 @@
 ---
+title: Tutorials and presentations
 permalink: /tutorials/
-title: Tutorials
 header:
   overlay_image: "/images/texture-feature-03.jpg"
-  caption: [Fall in Silver Spring, MD, USA. Diego J. Lizcano](http://500px.com/dlizcano)
+  caption: "[Fall in Silver Spring, MD, USA. Diego J. Lizcano](http://500px.com/dlizcano)"
 comments: false
 show_date: false
 share: true
