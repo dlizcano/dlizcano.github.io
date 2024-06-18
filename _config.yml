@@ -119,8 +119,7 @@ author:
   avatar           : "images/bio-photo5.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Biologist, Mammal ecology and conservation, R and Linux fan"
   location         : "Zipaquira, Colombia"
-  email            : 
-  links:
+    links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:dj.lizcano@gmail.com"
