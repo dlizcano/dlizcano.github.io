@@ -33,7 +33,7 @@ The complete experience was amazing. We carried out two expeditions to Curare wa
 
 We underestimated the difficulty of setting up the cameras in the forest. After four days, we'd only installed nine cameras. Running low on food (especially since we forgot the salt!), and tired of bland meals, we decided to return to La Pedrera for supplies and a new plan. This time, salt and tastier options like canned sardines made the list. With a three-team strategy, the remaining 11 cameras were installed in just two days on our second expedition. 
 
-Now I really respect the people working and installing with more than 20 cameratraps simultaneously. 
+Now I really respect the people working the field, installing more than 20 cameratraps simultaneously. 
 
 ## The team
 <figure>
