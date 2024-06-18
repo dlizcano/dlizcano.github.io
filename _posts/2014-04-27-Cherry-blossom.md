@@ -10,8 +10,8 @@ tags:
   - picture
   - DC
 header:
-  teaser: /images/spring1/IMG-5793.jpg
-  overlay_image: "/images/texture-feature-02.jpg"
+  teaser: /images/cherry.jpg
+  overlay_image: "/images/texture-feature-03.jpg"
   caption: "Photo: [Leaves, Silver Spring. Diego J. Lizcano](http://500px.com/dlizcano)"
 comments: true
 share: true
