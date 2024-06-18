@@ -14,8 +14,8 @@ category:
   - blog
   - github
 header:
-  teaser: "/images/texture-feature-02.jpg"
-  overlay_image: texture-feature-02.jpg
+  teaser: "/images/map1.png"
+  overlay_image: /images/texture-feature-02.jpg
   caption: "Photo: [Andes Mountains, Peru. Diego J. Lizcano](http://500px.com/dlizcano)"
 last_modified_at: 2014-04-20T01:24:36-0400
 ---
@@ -24,11 +24,11 @@ last_modified_at: 2014-04-20T01:24:36-0400
 
 Following the post by [http://seasci.wordpress.com/2013/12/20/it-knows-where-i-live](http://seasci.wordpress.com/2013/12/20/it-knows-where-i-live/). I was amaze to know how much Google knows about me.
 
-#### Get your info
+### Get your info
 
 If you use Google maps in your smart phone and you store your locations. This R code is for you. Just download the locations from [Google Takeout](https://accounts.google.com/ServiceLogin) and follow the code.
 
-#### Once you have the location file
+### Once you have the location file
 
 Save it in your hard drive \\data\\location\\ in my case.
 
@@ -46,7 +46,7 @@ names(locs)
 lapply(locs,class)
 ```
 
-#### Do some simple processing
+### Do some simple processing
 
 ```r
 # Get columns into useful formats
@@ -63,7 +63,7 @@ require(ggmap)
 DC = get_map(c(-77.05,38.93),11,source='google', color = "bw")
 ```
 
-#### Making the map
+### Making the map
 ```r
 ggmap(DC) %+% ldf + aes(x = lon, y = lat) +
   stat_binhex(data = ldf, aes(x = lon, y = lat),
@@ -81,7 +81,9 @@ scale_alpha(range = c(0.00, 0.25), guide = FALSE) +
 </figure>
 
 ## It is clear:
-- I spend much of my time in Silver Spring
+- I spend much of my time in Silver Spring, MD
 - I use the GPS of my phone sporadically, usually riding the red and green lines in the metro.
+
+<hr>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
