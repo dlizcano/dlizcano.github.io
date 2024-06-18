@@ -2,11 +2,14 @@
 title: "1st post in my blog"
 comments: true
 show_date: true
+share: true
+toc: true
 category:
   - post
   - blog
   - github
 header:
+  teaser: "/images/texture-feature-01.jpg"
   overlay_image: /images/texture-feature-01.jpg
   caption: "Photo: [Palm leave, Ecuador. Diego J. Lizcano](http://500px.com/dlizcano)"
 tags:
