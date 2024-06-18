@@ -16,7 +16,7 @@ category:
 header:
   teaser: "/images/texture-feature-02.jpg"
   overlay_image: texture-feature-02.jpg
-  caption: "Photo: [Andes Mountains, Peru. Diego J. Lizcano](http://500px.com/dlizcano)
+  caption: "Photo: [Andes Mountains, Peru. Diego J. Lizcano](http://500px.com/dlizcano)"
 last_modified_at: 2014-04-20T01:24:36-0400
 ---
 
