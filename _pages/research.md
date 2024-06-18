@@ -23,14 +23,7 @@ For most of my research I have studied mammals and mountain tapirs, my favourite
 I worked at [Awake Travel](https://awakebio.awake.travel/) as biodiversity specialist doing [acoustics](https://awakebio.awake.travel/) and [camera trapping](https://app.wildlifeinsights.org/initiatives/2000134/Awake-CameraTrap). 
 I worked at ULEAM as researcher directing a [wildlife monitoring project](https://faunamanabi.github.io/)
 
-### Find my: 
 
- <figure>
-	<a href="/images/opinionscore.jpg"><img src="/images/opinionscore.jpg"></a>
-</figure>
+![image-left]({{ site.url }}{{ site.baseurl }}/images/orcid-og-image.png){: .align-left} [Orcid profile](https://orcid.org/0000-0002-9648-0576)  
 
-
-
-- ![image-left]({{ site.url }}{{ site.baseurl }}/images/orcid-og-image.png){: .align-left} [Orcid profile(https://orcid.org/0000-0002-9648-0576)  
-
-- ![image-left]({{ site.url }}{{ site.baseurl }}/images/ResearchGate_icon.png){: .align-left} [ResearchGate profile](https://www.researchgate.net/profile/Diego_Lizcano)  
+![image-left]({{ site.url }}{{ site.baseurl }}/images/ResearchGate_icon.png){: .align-left} [ResearchGate profile](https://www.researchgate.net/profile/Diego_Lizcano)  
