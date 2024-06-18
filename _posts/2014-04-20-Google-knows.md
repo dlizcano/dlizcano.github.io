@@ -4,7 +4,6 @@ comments: true
 show_date: true
 share: true
 toc: true
-category:
 tags: 
   - R
   - map
@@ -12,7 +11,7 @@ tags:
 category:
   - post
   - blog
-  - github
+  - code
 header:
   teaser: "/images/map1.png"
   overlay_image: /images/texture-feature-02.jpg
