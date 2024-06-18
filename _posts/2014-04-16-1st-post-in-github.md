@@ -1,5 +1,7 @@
 ---
 title: "1st post in my blog"
+comments: true
+show_date: true
 category:
   - post
   - blog
