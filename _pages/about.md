@@ -1,5 +1,6 @@
 ---
 title: About me
+permalink: /about/
 header:
   overlay_image: "/images/texture-feature-05.jpg"
   caption: "[Leaves, Silver Spring, MD. Diego J. Lizcano](http://500px.com/dlizcano)"
