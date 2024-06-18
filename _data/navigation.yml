@@ -5,7 +5,7 @@ main:
   - title: "Tutorials"
     url: /tutorials/
   - title: "Posts"
-    url: /year-archive/
+    url: /tags/
   - title: "Research"
     url: /research/
   # - title: "Sitemap"
