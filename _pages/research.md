@@ -24,6 +24,13 @@ I worked at [Awake Travel](https://awakebio.awake.travel/) as biodiversity speci
 I worked at ULEAM as researcher directing a [wildlife monitoring project](https://faunamanabi.github.io/)
 
 ### Find my: 
-- Orcid profile [![Orcid](images/orcid-og-image.png)](https://orcid.org/0000-0002-9648-0576)  
 
-- ResearchGate profile [![ResearchGate](images/ResearchGate_icon.png)](https://www.researchgate.net/profile/Diego_Lizcano)  
+ <figure>
+	<a href="/images/opinionscore.jpg"><img src="/images/opinionscore.jpg"></a>
+</figure>
+
+
+
+- ![image-left]({{ site.url }}{{ site.baseurl }}/images/orcid-og-image.png){: .align-left} [Orcid profile(https://orcid.org/0000-0002-9648-0576)  
+
+- ![image-left]({{ site.url }}{{ site.baseurl }}/images/ResearchGate_icon.png){: .align-left} [ResearchGate profile](https://www.researchgate.net/profile/Diego_Lizcano)  
