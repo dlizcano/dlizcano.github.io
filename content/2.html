@@ -1,0 +1,561 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css'>
+    
+    <script src='http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js' type='text/javascript'></script>
+    <script src='https://rawgithub.com/leaflet-extras/leaflet-providers/gh-pages/leaflet-providers.js' type='text/javascript'></script>
+    <script src='http://harrywood.co.uk/maps/examples/leaflet/leaflet-plugins/layer/vector/KML.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body>
+    <div id='chart1f4cd407aa8' class='rChart leaflet'></div>  
+    
+    <script>
+  var spec = {
+ "dom": "chart1f4cd407aa8",
+"width":            800,
+"height":            400,
+"urlTemplate": "http://{s}.tile.osm.org/{z}/{x}/{y}.png",
+"layerOpts": {
+ "attribution": "Map data<a href=\"http://openstreetmap.org\">OpenStreetMap</a>\n         contributors, Imagery<a href=\"http://mapbox.com\">MapBox</a>" 
+},
+"center": [            2.5,            -73 ],
+"zoom":              6,
+"provider": "MapQuestOpen.OSM",
+"id": "chart1f4cd407aa8" 
+}
+
+  var map = L.map(spec.dom, spec.mapOpts)
+  
+    map.setView(spec.center, spec.zoom);
+
+    if (spec.provider){
+      L.tileLayer.provider(spec.provider).addTo(map)    
+    } else {
+		  L.tileLayer(spec.urlTemplate, spec.layerOpts).addTo(map)
+    }
+     
+    L
+  .marker([
+ 4.8376,
+-75.499 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 20/3/2004 Huella </p>")
+L
+  .marker([
+ 4.8381,
+ -75.5 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 22/3/2004 Huella </p>")
+L
+  .marker([
+ 4.8202,
+-75.51 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 23/3/2004 Heces </p>")
+L
+  .marker([
+ 4.8226,
+-75.486 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 20/3/2004 Huella </p>")
+L
+  .marker([
+ 4.8266,
+-75.489 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 22/3/2004 Huella </p>")
+L
+  .marker([
+ 4.8249,
+-75.496 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 22/3/2004 Huella </p>")
+L
+  .marker([
+ 4.8214,
+-75.487 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 23/3/2004 Heces </p>")
+L
+  .marker([
+ 4.8185,
+-75.508 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 25/3/2004 Heces </p>")
+L
+  .marker([
+  4.801,
+-75.497 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 28/3/2004 Huella </p>")
+L
+  .marker([
+ 4.8036,
+-75.505 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 27/3/2004 Huella </p>")
+L
+  .marker([
+ 4.6271,
+-75.345 
+])
+  .addTo( map )
+  .bindPopup("<p> Andres Guarnizo 20/2/2004 Pelo </p>")
+L
+  .marker([
+ 4.6328,
+-75.35 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 15/5/2004 Pelo </p>")
+L
+  .marker([
+ 4.6829,
+ -75.5 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 16/5/2004 Huella </p>")
+L
+  .marker([
+ 4.6773,
+-75.495 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 16/5/2004 Heces </p>")
+L
+  .marker([
+ 4.6773,
+-75.495 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 17/5/2004 Huella </p>")
+L
+  .marker([
+ 4.6773,
+-75.495 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 17/5/2004 Heces </p>")
+L
+  .marker([
+ 4.6776,
+-75.498 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 17/5/2004 Huella </p>")
+L
+  .marker([
+ 4.8058,
+-75.498 
+])
+  .addTo( map )
+  .bindPopup("<p> Jaime Suarez 18/5/2004 Huella </p>")
+L
+  .marker([
+ 4.7857,
+-75.525 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 20/6/2000 Huella </p>")
+L
+  .marker([
+ 4.7434,
+-75.513 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 22/6/2000 Huella </p>")
+L
+  .marker([
+  4.703,
+-75.523 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 28/6/2000 Huella </p>")
+L
+  .marker([
+ 4.6273,
+-75.33 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 27/6/2000 Huella </p>")
+L
+  .marker([
+  4.545,
+-75.374 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 26/6/2000 Huella </p>")
+L
+  .marker([
+    4.5,
+-75.467 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 30/6/2000 Heces </p>")
+L
+  .marker([
+ 4.3311,
+-75.463 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 20/7/2000 Huella </p>")
+L
+  .marker([
+ 4.3048,
+-75.376 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 20/7/2000 Huella </p>")
+L
+  .marker([
+ 4.1276,
+-75.605 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 21/7/2000 Huella </p>")
+L
+  .marker([
+  4.093,
+-75.677 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 23/7/2000 Pelo </p>")
+L
+  .marker([
+ 3.9647,
+-75.595 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 21/7/2001 Huella </p>")
+L
+  .marker([
+ 3.9465,
+-75.699 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 25/7/2000 Huella </p>")
+L
+  .marker([
+ 3.9227,
+-75.665 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 28/7/2000 Heces </p>")
+L
+  .marker([
+ 3.9224,
+-75.793 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 28/7/2000 Huella </p>")
+L
+  .marker([
+ 3.8551,
+-75.821 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 15/8/2000 Huella </p>")
+L
+  .marker([
+ 3.8037,
+-75.678 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 15/8/2000 Huella </p>")
+L
+  .marker([
+ 3.6504,
+-75.812 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 16/8/2000 Huella </p>")
+L
+  .marker([
+ 3.4948,
+-75.905 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 19/8/2000 Pelo </p>")
+L
+  .marker([
+ 3.4187,
+-75.866 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 19/8/2000 Huella </p>")
+L
+  .marker([
+ 3.1884,
+-75.93 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 21/8/2000 Huella </p>")
+L
+  .marker([
+ 1.0204,
+-77.211 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 22/8/2000 Huella </p>")
+L
+  .marker([
+ 0.97299,
+-77.224 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 22/8/2000 Huella </p>")
+L
+  .marker([
+ 0.93296,
+-77.115 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 23/8/2000 Huella </p>")
+L
+  .marker([
+ 0.94177,
+-77.046 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 23/8/2000 Heces </p>")
+L
+  .marker([
+ 0.9039,
+-76.991 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 24/8/2000 Huella </p>")
+L
+  .marker([
+ 0.97945,
+-77.298 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 24/8/2000 Huella </p>")
+L
+  .marker([
+ 0.94343,
+-77.334 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 24/8/2000 Pelo </p>")
+L
+  .marker([
+ 1.6574,
+-76.183 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 30/8/2000 Huella </p>")
+L
+  .marker([
+ 1.0263,
+-77.125 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 30/8/2000 Huella </p>")
+L
+  .marker([
+ 4.8177,
+-75.519 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 3/7/2000 Huella </p>")
+L
+  .marker([
+ 4.6322,
+-75.469 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 3/7/2000 Huella </p>")
+L
+  .marker([
+  4.471,
+-75.455 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 4/7/2000 Huella </p>")
+L
+  .marker([
+ 4.7182,
+-75.487 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 4/7/2000 Pelo </p>")
+L
+  .marker([
+ 4.6909,
+-75.497 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 5/7/2000 Huella </p>")
+L
+  .marker([
+ 3.3219,
+-75.881 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 5/8/2000 Huella </p>")
+L
+  .marker([
+ 3.1842,
+-75.779 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 5/8/2000 Pelo </p>")
+L
+  .marker([
+ 3.0997,
+-75.771 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 5/8/2000 Huella </p>")
+L
+  .marker([
+  2.856,
+-75.689 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 20/9/2000 Huella </p>")
+L
+  .marker([
+  2.867,
+-75.738 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 22/9/2000 Huella </p>")
+L
+  .marker([
+ 2.8697,
+-75.785 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 22/9/2000 Huella </p>")
+L
+  .marker([
+ 2.8147,
+-75.694 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 22/9/2000 Huella </p>")
+L
+  .marker([
+ 1.9917,
+-76.45 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 2/10/2000 Pelo </p>")
+L
+  .marker([
+ 1.8287,
+-76.341 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 12/11/2000 Huella </p>")
+L
+  .marker([
+ 1.2896,
+-76.83 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 12/11/2000 Huella </p>")
+L
+  .marker([
+ 1.1534,
+-76.824 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 21/11/2000 Huella </p>")
+L
+  .marker([
+ 2.2535,
+-76.424 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 25/11/2000 Huella </p>")
+L
+  .marker([
+  2.193,
+-76.45 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 25/11/2000 Huella </p>")
+L
+  .marker([
+ 2.1407,
+-76.359 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 25/11/2000 Huella </p>")
+L
+  .marker([
+ 4.6964,
+-75.576 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 29/11/2000 Pelo </p>")
+L
+  .marker([
+ 4.8834,
+-75.547 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 29/11/2000 Huella </p>")
+L
+  .marker([
+ 0.88403,
+-77.368 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 29/3/2001 Huella </p>")
+L
+  .marker([
+ 4.7005,
+-75.555 
+])
+  .addTo( map )
+  .bindPopup("<p> Diego Lizcano 29/11/2002 Huella </p>")
+    
+    
+    
+    
+    if (spec.circle2){
+      for (var c in spec.circle2){
+        var circle = L.circle(c.center, c.radius, c.opts)
+         .addTo(map);
+      }
+    }
+    
+    
+    
+    
+    
+   
+   
+   
+</script>
+    
+  </body>
+</html>
