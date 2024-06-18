@@ -1,5 +1,5 @@
 ---
-title: "Evolución de la ciencia en Colombia"
+title: "Sobre la ciencia en Colombia"
 category:
 tags: 
   - R
