@@ -8,7 +8,7 @@ tags:
   - biodiversity
   - mammal
 header:
-  teaser: /images/mammal/map3.jpg
+  teaser: /images/mammal/map4.png
   overlay_image: "/images/texture-feature-13.jpg"
   caption: "[Trees in the winter, Silver Spring, MD, USA. Diego J. Lizcano](http://500px.com/dlizcano)"
 comments: true
