@@ -11,7 +11,7 @@ toc: false
 modified: 2024-04-29T13:15:36-0400
 ---
 
-## Harnessing the Power of Ecology for Sustainable Success:
+## Harnessing the Power of Ecology:
 
 Is your business operation impacting biodiversity? I can help you find sustainable solutions. I am a passionate professional-services consultant specializing in ecology, biodiversity monitoring, and conservation. I assist organizations and companies in making informed decisions through a data-driven approach, ensuring their operations align with the best scientific insight and environmental sustainability. My comprehensive wildlife monitoring programs utilize camera traps, acoustic surveys, and field data collection to provide a detailed picture of wildlife populations.
 
