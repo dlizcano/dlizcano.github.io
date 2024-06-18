@@ -46,6 +46,8 @@ Now I really respect the people working and installing with more than 20 camerat
 
 ### Here you can see the track from my GPS
 
+[track](http://dlizcano.cartodb.com/viz/43d1af28-2fb2-11e4-8067-0e73339ffa50/embed_map)
+
 <iframe width='100%' height='520' frameborder='0' src='http://dlizcano.cartodb.com/viz/43d1af28-2fb2-11e4-8067-0e73339ffa50/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 
