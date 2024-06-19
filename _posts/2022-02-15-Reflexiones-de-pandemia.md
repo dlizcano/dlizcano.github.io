@@ -46,7 +46,7 @@ Desde la Sociedad Colombiana de Mastología (SCMas), asumi el reto de organizar 
 Finalmente acá pueden ver el libro de resumenes [https://doi.org/10.47603/mano.v7n3.312](https://doi.org/10.47603/mano.v7n3.312). Si bien la organizacion nos dejo agotados!, hubo grandes satisfacciones, nuevos amigos y muchas enseñanzas. 
 
 
-<p> El 2022 fue excelente!  <br>
+<p> El 2021 fue excelente!  <br>
 <br>
 </p>
 
