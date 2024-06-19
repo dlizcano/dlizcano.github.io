@@ -11,7 +11,7 @@ tags:
   - ciencia
 header:
   teaser: /images/Diego_Lizcano_Radiotracking.jpg
-  overlay_image: "/images/texture-feature-05.jpg"
+  overlay_image: "/images/texture-feature-09.jpg"
   caption: "[Coca leaves, Colombia. Diego J. Lizcano](https://www.instagram.com/walking_tapir/)"
 comments: true
 share: true
