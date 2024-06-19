@@ -13,7 +13,7 @@ tags:
 header:
   teaser: /images/occu/occu-wcs.jpg
   overlay_image: "/images/texture-feature-19.jpg"
-  caption: "[Mouintain forest, Mindo, Ecuador.](https://500px.com/dlizcano)"
+  caption: "[Mountain forest, Mindo, Ecuador.](https://500px.com/dlizcano)"
 comments: true
 share: true
 last_modified_at: 2016-06-24T01:24:36-0400
