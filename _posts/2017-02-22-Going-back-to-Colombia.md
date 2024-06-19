@@ -24,7 +24,7 @@ Following the [devastating earthquake on Ecuador's coast in 2016](https://en.wik
 
 #### [Some pictures in facebook](https://www.facebook.com/media/set/?set=a.10155724873992501&type=3)
 
-#### [Some work doing traditional radio tracking}(https://bird-monitoring.netlify.app/)
+#### [Some work doing traditional radio tracking](https://bird-monitoring.netlify.app/)
 
 
 <p>
