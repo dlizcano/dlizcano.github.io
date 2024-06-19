@@ -9,7 +9,7 @@ tags:
 header:
   teaser: /images/osprey.jpg
   overlay_image: "/images/osprey.jpg"
-  caption: "[Cerro Yupati, La Pedrera, Amazonas, Colombia](https://www.flickr.com/photos/diegolizcano/14734613538)"
+  caption: "[Osprey flying. Chetumal, Mexico. Diego J. Lizcano](https://www.instagram.com/walking_tapir/)"
 comments: true
 share: true
 show_date: true
