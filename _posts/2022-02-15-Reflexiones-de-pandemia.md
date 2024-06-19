@@ -39,7 +39,7 @@ En el 2021 las cosas mejoraron bastante. Gracias a mi buen amigo Carlos Pedraza,
 ## Por otra parte  
 
 
-Desde la Sociedad Colombiana de Mastología (SCMas), asumi el reto de organizar y realizar un congreso de mastozoología virtual. Aca pueden ver algunas sesiones en el canal de youtube de la SCMas.  
+Desde la Sociedad Colombiana de Mastología (SCMas), asumi el reto de organizar y realizar un [congreso de mastozoología virtual](http://www.mamiferoscolombia.org/IVCCM/). Aca pueden ver algunas sesiones en el canal de youtube de la SCMas.  
 
 {% include video id="HwGKyBQjeo4" provider="youtube" %}  
 
