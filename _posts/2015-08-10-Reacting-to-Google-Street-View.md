@@ -4,7 +4,7 @@ show_date: true
 share: true
 toc: true
 category: 
-  - Spanish
+  - English
 tags: 
   - Ecuador
   - Photo
