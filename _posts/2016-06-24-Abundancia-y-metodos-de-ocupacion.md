@@ -6,7 +6,7 @@ category:
   - Spanish
 tags: 
   - Ecuador
-  - Camera trap
+  - Cameratrap
   - R
   - ciencia
   - Slidify

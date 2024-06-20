@@ -6,6 +6,7 @@ tags:
   - R
   - map
   - GIS
+  - code
 header:
   teaser: /images/mammal/map4.png
   overlay_image: "/images/texture-feature-20.jpg"

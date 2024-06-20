@@ -6,6 +6,7 @@ tags:
   - blog
   - curso
   - video
+  - cameratrap
 header:
   teaser: /images/Acoustic.jpg
   overlay_image: "/images/texture-feature-14.jpg"

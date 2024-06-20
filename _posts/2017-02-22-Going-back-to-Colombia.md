@@ -9,6 +9,7 @@ tags:
   - Biodiversity
   - TNC
   - ciencia
+  - work
 header:
   teaser: /images/Diego_Lizcano_Radiotracking.jpg
   overlay_image: "/images/texture-feature-09.jpg"

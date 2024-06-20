@@ -7,7 +7,7 @@ tags:
   - ciencia
   - blog
   - Fototrampeo
-  - Camera trap
+  - Cameratrap
 header:
   teaser: /images/flickr/flickr_album.jpg
   overlay_image: "/images/texture-feature-22.jpg"
