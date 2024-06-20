@@ -2,7 +2,7 @@
 title: "Luces, camara acción II"
 category: Spanish
 tags:   
-  - Monitoreo Acustico
+  - Camera trap
   - blog
   - curso
   - video
@@ -39,7 +39,7 @@ Cuanto tiempo debo dejar las camaras activas?
 
 {% include video id="812273329" provider="vimeo" %}
 
-> Que gran diferencia entre el primer video de la serie de acustica y el ultimo de la de fototrampeo!
+> Que gran diferencia entre el primer video de la serie de acústica y el ultimo de la de fototrampeo!
 
 <p>   <br>
 <br>
