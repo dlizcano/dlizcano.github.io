@@ -8,4 +8,5 @@ header:
   caption: "[Palm leaves, Ecuador. Diego J. Lizcano](http://500px.com/dlizcano)"
 comments: false
 share: false
+entries_layout: grid # list (default), grid
 ---
