@@ -2,13 +2,12 @@
 title: "Luces, camara acción II"
 category: Spanish
 tags:   
-  - Camera trap
   - blog
   - curso
   - video
   - Cameratrap
 header:
-  teaser: /images/Acoustic.jpg
+  teaser: /images/Lizcano_teaser_video.jpg
   overlay_image: "/images/texture-feature-14.jpg"
   caption: "[Walking path, Crystal City, Virginia, USA. Diego J. Lizcano](https://www.instagram.com/walking_tapir/)"
 comments: true
