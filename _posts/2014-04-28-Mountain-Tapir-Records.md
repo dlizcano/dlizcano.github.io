@@ -7,16 +7,17 @@ toc: true
 category: English
 tags: 
   - R
-  - code
   - map
 header:
-  teaser: /images/cherry.jpg
+  teaser: /images/default-thumb.png
   overlay_image: "/images/texture-feature-07.jpg"
   caption: "[Andes, Peru. Diego J. Lizcano](https://www.instagram.com/walking_tapir/)"
 comments: true
 share: true
 last_modified_at: 2014-04-28T01:24:36-0400
 ---
+
+> Note in 2023: Tha package rMaps stoped working since several years ago. So this code is not working any more. Instead see  [https://dlizcano.github.io/spatialdata_lite/PM.html](https://dlizcano.github.io/spatialdata_lite/PM.html) for an updated version using the packages sf and mapview. I keep the post and code just as a way to refresh my memmory.
 
 ## Mountain Tapir Distribution
 

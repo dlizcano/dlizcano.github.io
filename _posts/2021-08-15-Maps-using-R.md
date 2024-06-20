@@ -6,7 +6,6 @@ tags:
   - R
   - map
   - GIS
-  - code
 header:
   teaser: /images/map2.png
   overlay_image: "/images/texture-feature-20.jpg"

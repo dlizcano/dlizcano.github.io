@@ -5,7 +5,6 @@ tags:
   - R
   - ciencia
   - Colombia
-  - code
 header:
   teaser: /images/Colciencias/calendar_small.png
   overlay_image: "/images/texture-feature-15.jpg"

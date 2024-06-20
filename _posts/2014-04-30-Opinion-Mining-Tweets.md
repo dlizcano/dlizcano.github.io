@@ -5,7 +5,6 @@ tags:
   - R
   - twitter
   - text-mining
-  - code
 header:
   teaser: /images/opinionscore.jpg
   overlay_image: "/images/texture-feature-10.jpg"

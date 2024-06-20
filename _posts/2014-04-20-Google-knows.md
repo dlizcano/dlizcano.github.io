@@ -8,7 +8,6 @@ tags:
   - R
   - map
   - ggmap
-  - code
 category: English
 header:
   teaser: "/images/map1.png"
