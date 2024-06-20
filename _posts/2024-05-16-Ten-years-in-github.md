@@ -6,7 +6,7 @@ share: true
 toc: true
 category: English
 header:
-  teaser: "/images/texture-feature-01.jpg"
+  teaser: "/images/github.jpg"
   overlay_image: /images/texture-feature-01.jpg
   caption: "Photo: [Cortaderal, PNN los Nevados, Colombia. Diego J. Lizcano](https://www.instagram.com/walking_tapir/)"
 tags:
@@ -20,6 +20,8 @@ last_modified_at: 2024-05-16T13:05:25-05:00
 ## Not so new in GitHub
 
 [GitHub](https://github.com/dlizcano) has become my central platform for everything code-related. From development and sharing to version control and archiving, it's my go-to tool. It even extends to web development and report management. Recently, I hit a milestone – over 100 repositories! While many are forks or clones of others' work, it showcases the collaborative power of the open-source community that GitHub fosters. I'm incredibly grateful for this platform after a decade of using it!
+
+![image](https://dlizcano.github.io/images/github.jpg)
 
 ## Weppage update 
 
