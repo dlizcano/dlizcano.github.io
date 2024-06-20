@@ -1,5 +1,5 @@
 ---
-title: "Posts"
+title: "Posts by Tag"
 permalink: /tags/
 layout: tags
 author_profile: true
@@ -9,4 +9,5 @@ header:
 comments: false
 show_date: false
 share: false
+entries_layout: grid # list (default), grid
 ---
