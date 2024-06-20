@@ -8,7 +8,7 @@ category: English
 header:
   teaser: "/images/texture-feature-01.jpg"
   overlay_image: /images/texture-feature-01.jpg
-  caption: "Photo: [Palm leave, Ecuador. Diego J. Lizcano](http://500px.com/dlizcano)"
+  caption: "Photo: [Cortaderal, PNN los Nevados, Colombia. Diego J. Lizcano](http://500px.com/dlizcano)"
 tags:
   - update
   - post
