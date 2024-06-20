@@ -9,7 +9,7 @@ tags:
   - Fototrampeo
   - Cameratrap
 header:
-  teaser: /images/flickr/flickr_album.jpg
+  teaser: /images/teaser_Lain_blog.jpg
   overlay_image: "/images/texture-feature-22.jpg"
   caption: "[Cuniculus paca, Machalilla, Ecuador. Fauna de Manabi](https://faunamanabi.github.io/)"
 comments: true
