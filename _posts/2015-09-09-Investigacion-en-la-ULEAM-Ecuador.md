@@ -10,6 +10,7 @@ tags:
   - ciencia
   - R
   - investigación
+  - code
 header:
   teaser: /images/uleam/wordcloud.png
   overlay_image: "/images/texture-feature-23.jpg"

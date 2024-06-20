@@ -1,6 +1,6 @@
 ---
 title: "Installing Camera Traps"
-category:
+category: English
 tags:
   - Colombia
   - Amazon

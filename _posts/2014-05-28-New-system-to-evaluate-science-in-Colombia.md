@@ -1,8 +1,7 @@
 ---
 title: "Investigadores y grupos de investigación en Colombia"
-category:
+category: Spanish
 tags:
-  - R
   - ciencia
   - Colombia
 header:

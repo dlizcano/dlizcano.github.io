@@ -5,10 +5,11 @@ share: true
 toc: true
 category: 
   - Photo
+  - English
 tags: 
   - Ecuador
   - Dry forest
-  - Camera trap
+  - Cameratrap
 header:
   teaser: /images/Ecuador/Manta.jpg
   overlay_image: "/images/texture-feature-22.jpg"

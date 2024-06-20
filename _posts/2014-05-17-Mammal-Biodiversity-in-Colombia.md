@@ -1,6 +1,6 @@
 ---
 title: "Mammal Biodiversity in Colombia"
-category:
+category: English
 tags: 
   - R
   - map

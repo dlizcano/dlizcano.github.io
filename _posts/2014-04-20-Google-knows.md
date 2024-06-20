@@ -8,10 +8,8 @@ tags:
   - R
   - map
   - ggmap
-category:
-  - post
-  - blog
   - code
+category: English
 header:
   teaser: "/images/map1.png"
   overlay_image: /images/texture-feature-02.jpg

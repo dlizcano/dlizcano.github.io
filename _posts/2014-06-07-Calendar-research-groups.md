@@ -1,10 +1,11 @@
 ---
 title: "Sobre la ciencia en Colombia"
-category:
+category: Spanish
 tags: 
   - R
   - ciencia
   - Colombia
+  - code
 header:
   teaser: /images/Colciencias/calendar_small.png
   overlay_image: "/images/texture-feature-16.jpg"

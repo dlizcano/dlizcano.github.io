@@ -1,8 +1,8 @@
 ---
 title: "Research groups in Colombia"
-category:
+category: English
 tags: 
-  - R
+  - map
   - ciencia
   - Colombia
 header:

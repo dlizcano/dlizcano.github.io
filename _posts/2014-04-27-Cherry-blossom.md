@@ -5,6 +5,7 @@ show_date: true
 share: true
 toc: true
 category: 
+  - English
   - Photo
 tags: 
   - picture

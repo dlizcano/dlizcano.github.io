@@ -4,16 +4,16 @@ comments: true
 show_date: true
 share: true
 toc: true
-category:
-  - post
-  - blog
-  - github
+category: English
 header:
   teaser: "/images/texture-feature-01.jpg"
   overlay_image: /images/texture-feature-01.jpg
   caption: "Photo: [Palm leave, Ecuador. Diego J. Lizcano](http://500px.com/dlizcano)"
 tags:
   - update
+  - post
+  - blog
+  - github
 last_modified_at: 2014-04-16T13:05:25-05:00
 ---
 

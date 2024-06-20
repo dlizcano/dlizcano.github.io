@@ -5,6 +5,7 @@ share: true
 toc: true
 category: 
   - English
+  - Photo
 tags: 
   - Ecuador
   - Photo

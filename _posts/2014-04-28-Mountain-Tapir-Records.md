@@ -4,11 +4,11 @@ comments: true
 show_date: true
 share: true
 toc: true
-category: 
-  - Photo
+category: English
 tags: 
-  - picture
-  - DC
+  - R
+  - code
+  - map
 header:
   teaser: /images/cherry.jpg
   overlay_image: "/images/texture-feature-07.jpg"

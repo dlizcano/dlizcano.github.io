@@ -1,10 +1,11 @@
 ---
 title: "Convocatoria Colciencias 640 del 2013"
-category:
+category: Spanish
 tags: 
   - R
   - ciencia
   - Colombia
+  - code
 header:
   teaser: /images/Colciencias/calendar_small.png
   overlay_image: "/images/texture-feature-15.jpg"
