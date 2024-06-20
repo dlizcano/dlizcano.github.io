@@ -10,4 +10,5 @@ comments: false
 show_date: false
 classes: wide
 share: false
+entries_layout: grid # list (default), grid
 ---

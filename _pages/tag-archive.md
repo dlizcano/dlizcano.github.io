@@ -9,5 +9,6 @@ header:
 comments: false
 show_date: false
 share: false
+classes: wide
 entries_layout: grid # list (default), grid
 ---
