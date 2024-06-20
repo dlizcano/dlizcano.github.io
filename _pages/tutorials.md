@@ -8,6 +8,7 @@ comments: false
 show_date: false
 share: true
 toc: false
+classes: wide
 modified: 2024-04-29T13:15:36-0400
 ---
  
