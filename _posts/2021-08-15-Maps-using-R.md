@@ -8,7 +8,7 @@ tags:
   - GIS
   - code
 header:
-  teaser: /images/mammal/map4.png
+  teaser: /images/map2.png
   overlay_image: "/images/texture-feature-20.jpg"
   caption: "[Cerro Yupati, La Pedrera, Amazonas, Colombia](https://www.flickr.com/photos/diegolizcano/14734613538)"
 comments: true
