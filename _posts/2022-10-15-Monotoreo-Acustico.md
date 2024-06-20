@@ -17,7 +17,7 @@ toc: true
 last_modified_at: 2022-10-15T01:24:36-0400
 ---
 
-## Videos de AwakeU 
+## Videos de AwakeU (acústica)
 
 ### monitoreo acústico 
 

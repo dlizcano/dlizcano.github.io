@@ -1,5 +1,5 @@
 ---
-title: "Luces, camara acción I"
+title: "Luces, camara acción II"
 category: Spanish
 tags:   
   - Monitoreo Acustico
@@ -17,56 +17,29 @@ toc: true
 last_modified_at: 2022-10-15T01:24:36-0400
 ---
 
-## Videos de AwakeU 
+## Videos de AwakeU (fototrampeo)
 
-### monitoreo acústico 
+### Trampas Camara 
 
-Como parte de mi trabajo en Awake Travel realizamos una serie de videos sobre monitoreo acústico de biodiversidad que hacen parte de la plataforma de [AwakeU](https://u.awake.travel/). 
+Como parte de mi trabajo en Awake Travel realizamos una serie de videos sobre trampas camara que hacen parte del curso de fototrampeo la plataforma de [AwakeU](https://u.awake.travel/). 
 
-Monitoreo acústico desde la experiencia
+Fototrampeo para turismo de naturaleza
 
-{% include video id="740555450" provider="vimeo" %}
+{% include video id="812273146" provider="vimeo" %}
 
-Introducción
+Cuantas camaras debo usar?
 
-{% include video id="724022466" provider="vimeo" %}
+{% include video id="812273208" provider="vimeo" %}
 
-Intro 2
+Como instalar las Camaras?
 
-{% include video id="740555382" provider="vimeo" %}
+{% include video id="812273465" provider="vimeo" %}
 
-Monitoreo acústico, dispositivos y archivos
+Cuanto tiempo debo dejar las camaras activas?
 
-{% include video id="740555395" provider="vimeo" %}
+{% include video id="812273329" provider="vimeo" %}
 
-Los Audiomoth
-
-{% include video id="740555413" provider="vimeo" %}
-
-Las partes del Audiomoth
-
-{% include video id="742834893" provider="vimeo" %}
-
-Como configurar tu Audiomoth
-
-{% include video id="742834879" provider="vimeo" %}
-
-La plataforma Arbimon
-
-{% include video id="740555426" provider="vimeo" %}
-
-Crear un PlayList en Arbimon
-
-{% include video id="743732552" provider="vimeo" %}
-
-Marcar una especie en Arbimon
-
-{% include video id="743732564" provider="vimeo" %}
-
-Aviturismo una mirada desde la experiencia 
-
-{% include video id="740555440" provider="vimeo" %}
-
+> Que gran diferencia entre el primer video de la serie de acustica y el ultimo de la de fototrampeo!
 
 <p>   <br>
 <br>
