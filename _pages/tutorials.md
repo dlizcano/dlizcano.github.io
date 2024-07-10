@@ -22,6 +22,7 @@ modified: 2024-04-29T13:15:36-0400
 - [Simulación y análisis de ocupación: Entendiendo las simulaciones y el modelo básico de ocupación (Spanish)](https://dlizcano.github.io/IntroOccuBook/)
 - [Mini taller de modelado de la ocupación. Uniandes 2023 (Spanish)](https://dlizcano.github.io/Uniandes/)
 - [Introducción al procesamiento, visualización y mapeo de datos biologicos (Spanish)](https://dlizcano.github.io/Intro_R_espacial_light/)
+- [Modelo de Ocupación una sola especie, una sola epoca, con prediccion espacial (Spanish)](https://dlizcano.github.io/WCS-CameraTrap/occupancy.html)
 - [Modelo de Ocupación Dinámico (Spanish)](https://dlizcano.github.io/dynamic-occu/index.html)
 - [Introducción al procesamiento, visualización y análisis de datos espaciales en R. 2024 (Spanish)](https://dlizcano.github.io/spatialdata_lite/)
 
