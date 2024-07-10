@@ -14,7 +14,9 @@ modified: 2024-04-29T13:15:36-0400
  
 
 ## Tutorials  
-  
+
+- [Diversity analysis using camera trap data (English)](https://dlizcano.github.io/cameratrap/posts/2024-06-25-species-diversity/index.html)
+- [Multispecies occupancy model using camera trap data (English)](https://dlizcano.github.io/cameratrap/posts/2024-06-20-multispecies-occupancy/index.html)
 - [Introducción a R (Tutorial in Spanish)](https://dlizcano.github.io/IntroR/)
 - [Occupancy simulation and analysis: Understanding the simulations and the basic occupancy model (English)](https://dlizcano.github.io/occu_book/)
 - [Simulación y análisis de ocupación: Entendiendo las simulaciones y el modelo básico de ocupación (Spanish)](https://dlizcano.github.io/IntroOccuBook/)
@@ -25,5 +27,5 @@ modified: 2024-04-29T13:15:36-0400
 
 ## Presentations  
   
-- [Ocupancy Modeling Workshop. OTS 2022](https://dlizcano.github.io/OTS/Occupancy.html)
+- [Ocupancy Modeling Workshop. OTS 2022 (English)](https://dlizcano.github.io/OTS/Occupancy.html)
 - [Abundancia: Entendiendo el contexto y la historia de los modelos de ocupación. IVCCM 2021 (Spanish)](https://dlizcano.github.io/IntroOccuPresent/index_ivccm.html)
