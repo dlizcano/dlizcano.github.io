@@ -34,4 +34,4 @@ I worked at ULEAM as researcher directing a [wildlife monitoring project](https:
 :------:------|
 |  ![image](/images/ResearchGate_icon.png)    | [ResearchGate](https://www.researchgate.net/profile/Diego_Lizcano)    |
 |   ![image](/images/orcid-og-image.png) |   [Orcid](https://orcid.org/0000-0002-9648-0576)    |
-|   ![image](/images/GoogleScholar_ico)   |   [Scholar](https://scholar.google.com/citations?user=P6110SYAAAAJ&hl=en)   |
+|   ![image](/images/GoogleScholar_ico.png)   |   [Scholar](https://scholar.google.com/citations?user=P6110SYAAAAJ&hl=en)   |
