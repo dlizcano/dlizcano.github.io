@@ -34,7 +34,7 @@ En el 2021 las cosas mejoraron bastante. Gracias a mi buen amigo Carlos Pedraza,
 
 - Set de datos de monitoreo acústico en el SiB Colombia [https://doi.org/10.15472/kzo6hg](https://doi.org/10.15472/kzo6hg)
 - Proyecto de monitoreo acústico de Awake Travel en Arbimon [https://arbimon.rfcx.org/project/destinos-awake/dashboard](https://arbimon.rfcx.org/project/destinos-awake/dashboard)
-
+- Proyecto de [fototrapeo con Awake en wildlifeinsights](https://app.wildlifeinsights.org/initiatives/2000134/Awake-CameraTrap) 
 
 ## Por otra parte  
 
