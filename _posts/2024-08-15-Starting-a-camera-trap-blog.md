@@ -26,7 +26,7 @@ Leveraging the power of Quarto and R [Quarto and R](https://quarto.org/), I've e
 
 This blog will help extract insights from camera trap data and provide additional resources for researchers and enthusiasts alike. I will give you some tips to improve data organization and accessibility, as well as guides for analyzing camera trap data, discuss techniques for removing errors, inconsistencies, or duplicates, emphasize the importance of metadata for understanding data context and provenance, discuss techniques for predicting species distribution based on environmental factors, discussions and tutorials on how to analyze diurnal or seasonal activity patterns. Introduce various R packages, and statistical models for analyzing camera trap data. I will try to discuss common challenges encountered in camera trap data analysis and potential solutions. 
 
-![image](https://dlizcano.github.io/images/cameratrap.jpg)
+![image](https://dlizcano.github.io/images/cameratrap.JPG)
 
 ## Why Quarto and R? 
 
