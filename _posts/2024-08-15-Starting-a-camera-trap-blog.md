@@ -6,7 +6,7 @@ share: true
 toc: true
 category: English
 header:
-  teaser: "/images/cameratrap.jpg"
+  teaser: "/images/cameratrap_teaser.jpg"
   overlay_image: /images/texture-feature-25.jpg
   caption: "Photo: [Yurayaco, Caqueta, Colombia. Diego J. Lizcano](https://www.instagram.com/walking_tapir/)"
 tags:
