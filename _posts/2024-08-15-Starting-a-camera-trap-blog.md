@@ -20,7 +20,7 @@ last_modified_at: 2024-08-15T13:05:25-05:00
 
 ## A Blog for the camera trapper data analyst
 
-Leveraging the power of Quarto and R [Quarto and R](https://quarto.org/), I've embarked on a new project: a blog for the Diego of the future (and anyone else!) exploring the exciting possibilities of camera trap data analysis. 
+Using the power of Quarto and R [Quarto and R](https://quarto.org/), I've embarked on a new project: a blog for the Diego of the future (and anyone else!) exploring the exciting possibilities of camera trap data analysis. 
 
 [![Image name](https://dlizcano.github.io/images/cameratrapblog.jpg)](https://dlizcano.github.io/cameratrap/)
 
@@ -34,7 +34,7 @@ This blog will help extract insights from camera trap data and provide additiona
 
 ## Language
 
-The new blog is in English, however using the magic of google chrome you can [translate it to Spanish](https://www.youtube.com/watch?app=desktop&v=0ppXHz2pk3A) or your local language.  
+The new blog is in English, however using the magic of google chrome you can [translate it to Spanish](https://www.youtube.com/watch?app=desktop&v=0ppXHz2pk3A) or to any other language.  
 
 ## Next steps
 
