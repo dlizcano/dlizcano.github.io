@@ -10,12 +10,15 @@ header:
   overlay_image: /images/texture-feature-25.jpg
   caption: "Photo: [Yurayaco, Caqueta, Colombia. Diego J. Lizcano](https://www.instagram.com/walking_tapir/)"
 tags:
-  - update
   - post
   - blog
   - github
   - cameratrap
 last_modified_at: 2024-08-15T13:05:25-05:00
+feature_row:
+  - image_path: https://dlizcano.github.io/images/people.jpg
+  - image_path: https://dlizcano.github.io/images/cameratrap.JPG
+  - image_path: https://dlizcano.github.io/images/puma.JPG
 ---
 
 ## A Blog for the camera trapper data analyst
@@ -29,14 +32,9 @@ This blog will help extract insights from camera trap data and provide additiona
 - I will discuss techniques for removing errors, inconsistencies, or duplicates, emphasize the importance of metadata for understanding data context and provenance, 
 - Also discuss techniques for predicting species distribution based on environmental factors, discussions and tutorials on how to analyze diurnal or seasonal activity patterns. 
 - Introduce various R packages, and statistical models for analyzing camera trap data. 
-- I will try to discuss common challenges encountered in camera trap data analysis and potential solutions. 
+- I will try to discuss common challenges encountered in camera trap data analysis and potential solutions.  
 
-gallery:
-  - url: https://dlizcano.github.io/images/people.jpg
-    image_path: https://dlizcano.github.io/images/people.jpg
-  - url: https://dlizcano.github.io/images/cameratrap.JPG
-    image_path: https://dlizcano.github.io/images/cameratrap.JPG
-
+{% include feature_row %}
 
 ## Why Quarto and R? 
 
