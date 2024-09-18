@@ -31,11 +31,11 @@ This blog will help extract insights from camera trap data and provide additiona
 - Introduce various R packages, and statistical models for analyzing camera trap data. 
 - I will try to discuss common challenges encountered in camera trap data analysis and potential solutions. 
 
-::: {layout-ncol=2}
-![Explaining parts](https://dlizcano.github.io/images/people.jpg)
-
-![Installing in the field](https://dlizcano.github.io/images/cameratrap.JPG)
-:::
+gallery:
+  - url: https://dlizcano.github.io/images/people.jpg
+    image_path: https://dlizcano.github.io/images/people.jpg
+  - url: https://dlizcano.github.io/images/cameratrap.JPG
+    image_path: https://dlizcano.github.io/images/cameratrap.JPG
 
 
 ## Why Quarto and R? 
