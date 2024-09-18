@@ -24,9 +24,19 @@ Using the power of Quarto and R [Quarto and R](https://quarto.org/), I've embark
 
 [![Image name](https://dlizcano.github.io/images/cameratrapblog.jpg)](https://dlizcano.github.io/cameratrap/)
 
-This blog will help extract insights from camera trap data and provide additional resources for researchers and enthusiasts alike. I will give you some tips to improve data organization and accessibility, as well as guides for analyzing camera trap data, discuss techniques for removing errors, inconsistencies, or duplicates, emphasize the importance of metadata for understanding data context and provenance, discuss techniques for predicting species distribution based on environmental factors, discussions and tutorials on how to analyze diurnal or seasonal activity patterns. Introduce various R packages, and statistical models for analyzing camera trap data. I will try to discuss common challenges encountered in camera trap data analysis and potential solutions. 
+This blog will help extract insights from camera trap data and provide additional resources for researchers and enthusiasts alike. 
+- I will give you some tips to improve data organization and accessibility, as well as guides for analyzing camera trap data.
+- I will discuss techniques for removing errors, inconsistencies, or duplicates, emphasize the importance of metadata for understanding data context and provenance, 
+- Also discuss techniques for predicting species distribution based on environmental factors, discussions and tutorials on how to analyze diurnal or seasonal activity patterns. 
+- Introduce various R packages, and statistical models for analyzing camera trap data. 
+- I will try to discuss common challenges encountered in camera trap data analysis and potential solutions. 
 
-![image](https://dlizcano.github.io/images/cameratrap.JPG)
+::: {layout-ncol=2}
+![Explaining parts](https://dlizcano.github.io/images/people.jpg)
+
+![Installing in the field](https://dlizcano.github.io/images/cameratrap.JPG)
+:::
+
 
 ## Why Quarto and R? 
 
