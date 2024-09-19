@@ -25,7 +25,7 @@ feature_row:
 
 Using the power of Quarto and R [Quarto and R](https://quarto.org/), I've embarked on a new project: a blog for the Diego of the future (and anyone else!) exploring the exciting possibilities of camera trap data analysis. 
 
-[![Image name](https://dlizcano.github.io/images/cameratrapblog/cameratrapblog.jpg)](https://dlizcano.github.io/cameratrap/)
+[![Image name](https://dlizcano.github.io/images/cameratrapblog/cameratrapblog.jpg){: .full}](https://dlizcano.github.io/cameratrap/)
 
 ## Content 
 
