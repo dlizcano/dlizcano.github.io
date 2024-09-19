@@ -25,13 +25,13 @@ feature_row:
 
 Using the power of Quarto and R [Quarto and R](https://quarto.org/), I've embarked on a new project: a blog for the Diego of the future (and anyone else!) exploring the exciting possibilities of camera trap data analysis. 
 
-[![Image name](images/cameratrapblog/cameratrapblog.jpg)](https://dlizcano.github.io/cameratrap/)
+[![Image name](https://dlizcano.github.io/images/cameratrapblog/cameratrapblog.jpg)](https://dlizcano.github.io/cameratrap/)
 
 ## Content 
 
 This blog will help extract insights from camera trap data and provide additional resources for researchers and enthusiasts alike. 
 
-![image](images/cameratrapblog/cameratrap.jpg)
+![image](https://dlizcano.github.io/images/cameratrapblog/cameratrap.jpg)
 
 - I will give you some tips to improve data organization and accessibility, as well as guides for analyzing camera trap data.
 - I will discuss techniques for removing errors, inconsistencies, or duplicates, emphasize the importance of metadata for understanding data context and provenance. 
