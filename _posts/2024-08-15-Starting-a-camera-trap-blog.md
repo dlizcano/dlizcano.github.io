@@ -16,22 +16,22 @@ tags:
   - cameratrap
 last_modified_at: 2024-08-15T13:05:25-05:00
 feature_row:
-  - image_path: https://dlizcano.github.io/images/people.jpg
-  - image_path: https://dlizcano.github.io/images/kids.jpg
-  - image_path: https://dlizcano.github.io/images/puma.JPG
+  - image_path: https://dlizcano.github.io/images/cameratrapblog/people.jpg
+  - image_path: https://dlizcano.github.io/images/cameratrapblog/kids.jpg
+  - image_path: https://dlizcano.github.io/images/cameratrapblog/puma.JPG
 ---
 
 ## A Blog for the camera trapper data analyst
 
 Using the power of Quarto and R [Quarto and R](https://quarto.org/), I've embarked on a new project: a blog for the Diego of the future (and anyone else!) exploring the exciting possibilities of camera trap data analysis. 
 
-[![Image name](https://dlizcano.github.io/images/cameratrapblog.jpg)](https://dlizcano.github.io/cameratrap/)
+[![Image name](images/cameratrapblog/cameratrapblog.jpg)](https://dlizcano.github.io/cameratrap/)
 
 ## Content 
 
 This blog will help extract insights from camera trap data and provide additional resources for researchers and enthusiasts alike. 
 
-![image](https://dlizcano.github.io/images/cameratrap.JPG)
+![image](images/cameratrapblog/cameratrap.jpg)
 
 - I will give you some tips to improve data organization and accessibility, as well as guides for analyzing camera trap data.
 - I will discuss techniques for removing errors, inconsistencies, or duplicates, emphasize the importance of metadata for understanding data context and provenance. 
