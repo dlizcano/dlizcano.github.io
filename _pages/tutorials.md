@@ -15,6 +15,7 @@ modified: 2024-04-29T13:15:36-0400
 
 ## Tutorials  
 
+- [Mini Curso: Introducción al procesamiento, visualización y análisis de datos espaciales en R (Spanish)](https://dlizcano.github.io/spatialdata_lite/)
 - [Diversity analysis using camera trap data (English)](https://dlizcano.github.io/cameratrap/posts/2024-06-25-species-diversity/index.html)
 - [Multispecies occupancy model using camera trap data (English)](https://dlizcano.github.io/cameratrap/posts/2024-06-20-multispecies-occupancy/index.html)
 - [Introducción a R (Tutorial in Spanish)](https://dlizcano.github.io/IntroR/)
