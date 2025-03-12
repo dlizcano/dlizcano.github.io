@@ -14,7 +14,7 @@ modified: 2024-04-29T13:15:36-0400
  
 
 ## Tutorials  
-
+- [Esfuerzo de muestreo y RAI en Fototrampeo. Parte del Curso Introducción al Fototrampeo (Spanish)](https://dlizcano.github.io/cameratrap/posts/2024-12-10-RAI/index.html)
 - [Mini Curso: Introducción al procesamiento, visualización y análisis de datos espaciales en R (Spanish)](https://dlizcano.github.io/spatialdata_lite/)
 - [Diversity analysis using camera trap data (English)](https://dlizcano.github.io/cameratrap/posts/2024-06-25-species-diversity/index.html)
 - [Multispecies occupancy model using camera trap data (English)](https://dlizcano.github.io/cameratrap/posts/2024-06-20-multispecies-occupancy/index.html)
