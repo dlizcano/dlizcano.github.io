@@ -25,7 +25,7 @@ feature_row:
 
 Al final de la pandemia en 2023, y como parte de mi entusiasmo como parte del proceso de aprendizaje en métodos de monitoreo acústico que surgió con el proyecto [Monitoreo de Biodiversidad en destinos de turismo de naturaleza](https://monitoreo-acustico.netlify.app/es/) de [Awake](https://www.awake.travel/), me embarque en el proyecto de construir mi propio sistema de monitoreo acústico de aves con un BirdNET-Pi, siguiendo el tutorial de Core Electronics.
 
-{% include video id="0IM-F4sJ-5rc" provider="youtube" %}  
+{% include video id="IM-F4sJ-5rc" provider="youtube" %}  
 
 ## El aparato 
 
@@ -35,7 +35,7 @@ Siguiendo el tutorial, el montaje y la instalación del BirdNET-Pi fue muy senci
 
 ![image](https://dlizcano.github.io/images/birdnetpi/BirdNetPi_setup.jpg)
 
-En un comienzo lo instale en la ventana de mi apartamento, pero muy pronto note que solo estaba registrando a la gente, los perros y los carros, ya que la ventana daba a la parte interna y el parqueadero de los edificios. Así que decidí moverlo a la ventana del apartamento que mis suegros, que da hacia la parte exterior de los edificios donde hay algunos potreros con vacas y cercas de pinos. Con esta nueva localización el dispositivo quedo registrado como la [estación 754 en birweather](https://t.co/vKG0YMxY6K). Luego de un poco más de un año funcionando continuamente decidí recoger el aparato para reutilizar el Raspberry pi en otro proyecto. 
+En un comienzo lo instale en la ventana de mi apartamento, pero muy pronto note que solo estaba registrando a la gente, los perros y los carros, ya que la ventana daba a la parte interna y el parqueadero de los edificios. Así que decidí moverlo a la ventana del apartamento que mis suegros, que da hacia la parte exterior de los edificios donde hay algunos potreros con vacas y cercas de pinos. Con esta nueva localización el dispositivo quedo registrado como la [estación 754 en birdweather](https://t.co/vKG0YMxY6K). Luego de un poco más de un año funcionando continuamente decidí recoger el aparato para reutilizar el Raspberry pi en otro proyecto. 
 
 Junto con la instalación del BirdNET-Pi me di a la tarea de crear una cuenta en twitter llamada [BirdNET Pi Cajica](https://x.com/BirdNetPi_Cajic), para registrar las detecciones de forma automática, pero desafortunadamente, con la compra de twitter y su conversión a X, las políticas de las API para crear cuentas automatizadas cambiaron y la cuenta quedo desactivada luego de unos pocos meses.  
 
@@ -89,6 +89,6 @@ tbl_img  %>% kbl(booktabs = T) %>%
   src="/content/BirdNetPi_Cajic.html">
 </iframe>
 
-
+El entusiasmo con el monitoreo acústico no ha parado. Recientemente instale un [dispositivo igualito en la casa de mis padres en Cúcuta](https://app.birdweather.com/stations/2595). Pero esta vez usando el nuevo [código de BirdNet implementado en GO](https://github.com/tphakala/birdnet-go). Si bien tiene menos "features" y no viene con apraise, me parece que funciona bastante bien, siendo ligero y eficiente. 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
