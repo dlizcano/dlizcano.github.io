@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "*.yaml": "home-assistant"
-    }
+    },
+    "idf.pythonInstallPath": "C:\\Users\\usuario\\.espressif\\tools\\idf-python\\3.8.7\\python.exe"
 }
