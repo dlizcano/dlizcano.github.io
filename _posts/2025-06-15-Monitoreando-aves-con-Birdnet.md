@@ -14,15 +14,16 @@ tags:
   - BirdNET-Pi 
   - aves
   - monitoreo
+  - R
 last_modified_at: 2025-06-15T13:05:25-05:00
 feature_row:
   - image_path: https://dlizcano.github.io/images/birdnetpi/TurdusActivity.png
 
 ---
 
-## Monitoreo acustico de aves 
+## Monitoreo acústico de aves 
 
-Al final de la pandemia en 2023, y como parte de mi entusiasmo como parte del proceso de aprendizaje en métodos de monitoreo acústico que surgió con el proyecto [Monitoreo de Biodiversidad en destinos de turismo de naturaleza](https://monitoreo-acustico.netlify.app/es/) de [Awake](https://www.awake.travel/), me embarque en el proyecto de construir mi propio sistema de monitoreo acústico de aves con un BirdNET-Pi, siguiendo el tutorial de Core Electronics.
+Al final de la pandemia en 2023, y como parte de mi entusiasmo del proceso de aprendizaje en métodos de monitoreo acústico que surgió con el proyecto [Monitoreo de Biodiversidad en destinos de turismo de naturaleza](https://monitoreo-acustico.netlify.app/es/) de [Awake Travel](https://www.awake.travel/), me embarque en el proyecto de construir mi propio sistema de monitoreo acústico de aves con un BirdNET-Pi, siguiendo el tutorial de Core Electronics.
 
 {% include video id="IM-F4sJ-5rc" provider="youtube" %}  
 
@@ -34,11 +35,11 @@ Siguiendo el tutorial, el montaje y la instalación del BirdNET-Pi fue muy senci
 
 ![image](https://dlizcano.github.io/images/birdnetpi/BirdNetPi_setup.jpg)
 
-En un comienzo lo instale en la ventana de mi apartamento, pero muy pronto note que solo estaba registrando a la gente, los perros y los carros, ya que la ventana daba a la parte interna y el parqueadero de los edificios. Así que decidí moverlo a la ventana del apartamento de mis suegros, que da hacia la parte exterior de los mismos edificios en Cajica, donde hay algunos potreros con vacas y cercas de pinos. Con esta nueva localización el dispositivo quedo registrado como la [estación 754 en birdweather](https://t.co/vKG0YMxY6K). Luego de un poco más de un año funcionando continuamente decidí recoger el aparato para reutilizar el Raspberry pi en otro proyecto. 
+En un comienzo lo instale en la ventana de mi apartamento, pero muy pronto me di cuenta que solo estaba registrando a la gente, los perros y los carros, ya que la ventana daba a la parte interna y el parqueadero de los edificios. Así que decidí moverlo a la ventana del apartamento de mis suegros, que da hacia la parte exterior de los mismos edificios en Cajica, donde hay algunos potreros con vacas y cercas de pinos. Con esta nueva localización el dispositivo quedo registrado como la [estación 754 en birdweather](https://t.co/vKG0YMxY6K). Luego de un poco más de un año funcionando continuamente decidí recoger el aparato para reutilizar el Raspberry pi en otro proyecto. 
 
-Junto con la instalación del BirdNET-Pi me di a la tarea de crear una cuenta en twitter llamada [BirdNET Pi Cajica](https://x.com/BirdNetPi_Cajic), para registrar las detecciones de forma automática, pero desafortunadamente, con la compra de twitter y su conversión a X, las políticas de las API para crear cuentas automatizadas cambiaron y la cuenta quedo desactivada luego de unos pocos meses.  
+Junto con la instalación del BirdNET-Pi me di a la tarea de crear una cuenta en twitter llamada [BirdNET Pi Cajica](https://x.com/BirdNetPi_Cajic), para registrar las detecciones de forma automática, pero desafortunadamente, con la compra de twitter y su conversión a X, las políticas de las API para crear cuentas automatizadas cambiaron y la cuenta quedo desactivada luego de unos pocos meses de creada.  
 
-Usando las [API de birdweather](https://app.birdweather.com/api/) he recuperado los registros con un codigo muy sencillo. Aca se muestran los registros de las 15 especies mas comunes con su nombre en español.
+Teniendo en cuenta que los datos habían sido almacenados por birdweather me di a la tarea de recuperarlos usando las [API de birdweather](https://app.birdweather.com/api/). Con esto he aprendido sobre APIs y he logrado recuper los registros más comunes con un código muy sencillo. Acá se muestran los registros de las 15 especies más comunes con su nombre en español.
 
 
 ```r
@@ -66,6 +67,7 @@ tbl_img <- data.frame(
   Image = ""
 )
 
+# make a table
 tbl_img  %>% kbl(booktabs = T) %>%
   kable_paper(full_width = F) %>%
   column_spec(1, color = "white",bold=T,
@@ -90,7 +92,7 @@ tbl_img  %>% kbl(booktabs = T) %>%
 
 ### Extrayendo mas detalles de una especie
 
-Para obtener más datos de una especie se puede usar el [Get detections](https://app.birdweather.com/api/v1/index.html#detections-detection-get) que acoplado a los paquetes de R httr y jsonlite, hacen que el manejo de la API sea muy fácil. 
+Para obtener más datos de una especie se puede usar el [Get detections](https://app.birdweather.com/api/v1/index.html#detections-detection-get) que acoplado a los paquetes de R httr y jsonlite, hacen que el manejo de la API dsde R sea muy fácil. 
 
 Para este ejemplo extraeremos las detecciones del mes de Marzo del 2023 y usando la magia del paquete camtrapR vamos a obtener una gráfica del patrón de actividad de ese mes. 
 
