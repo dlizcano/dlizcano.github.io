@@ -90,7 +90,7 @@ tbl_img  %>% kbl(booktabs = T) %>%
 
 ### Extrayendo mas detalles de una especie
 
-Para obtener más datos de una especie se puede usar el [Get detections)(https://app.birdweather.com/api/v1/index.html#detections-detection-get) que acoplado a los paquetes de R httr y jsonlite, hacen que el manejo de la API sea muy fácil. 
+Para obtener más datos de una especie se puede usar el [Get detections](https://app.birdweather.com/api/v1/index.html#detections-detection-get) que acoplado a los paquetes de R httr y jsonlite, hacen que el manejo de la API sea muy fácil. 
 
 Para este ejemplo extraeremos las detecciones del mes de Marzo del 2023 y usando la magia del paquete camtrapR vamos a obtener una gráfica del patrón de actividad de ese mes. 
 
@@ -121,7 +121,7 @@ rect(18, 0, 24, 0.9, col= rgb(0.211,0.211,0.211, alpha=0.2), border = "transpare
 
 ```
 
-{% include feature_row %}
+![Patrón de Actividad de Turdus fuscater](https://dlizcano.github.io/images/birdnetpi/TurdusActivity.png)
 
 Es una lástima que las detecciones tengan un límite de 100 registros. Tal vez para hacerlo más detallado habría que bajar los datos diariamente. 
 
