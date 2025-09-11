@@ -1,5 +1,5 @@
 ---
-title: "Amimating Deforestation in Los Katios National Park"
+title: "Animating Deforestation in Los Katios National Park"
 show_date: true
 toc: true
 category: 
@@ -132,7 +132,9 @@ We can save the animation as .gif as well.
 
 {% include video id="1117592797" provider="vimeo" %}
 
-> It's disheartening to see the rapid rise in deforestation since 2015, especially the dramatic explosion of forest loss within Los Katios National Park in 2021. This trend is a clear and alarming threat to the park's biodiversity and ecological integrity.
+{: .notice--
+It's disheartening to see the rapid rise in deforestation since 2015, especially the dramatic explosion of forest loss within Los Katios National Park in 2021. This trend is a clear and alarming threat to the park's biodiversity and ecological integrity.
+warning}
 
 
 <p>
