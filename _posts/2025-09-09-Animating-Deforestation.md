@@ -5,15 +5,14 @@ toc: true
 category: 
   - English
 tags: 
-  - ciencia
   - R
   - map
   - Colombia
   - Deforestation
 header:
-  teaser: /images/Katios/fire2.gif
-  overlay_image: "/images/texture-feature-24.jpg"
-  caption: "[Bajo Caguan, Colombia. Diego J. Lizcano](https://www.instagram.com/walking_tapir/)"
+  teaser: /images/Katios/Katios_deforest.gif
+  overlay_image: "/images/texture-feature-10.jpg"
+  caption: "[Coca leaves and fruit, Colombia. Diego J. Lizcano](https://www.instagram.com/walking_tapir/)"
 comments: true
 share: true
 last_modified_at: 2025-09-09T01:24:36-0400
@@ -35,10 +34,10 @@ My goal was to use this deforestation data as a covariate in an occupancy analys
 
 This also provided the perfect opportunity to test the new animation features of the [tmap package](https://r-tmap.github.io/tmap/).
 
-Below is the code used to download the boundaries of a national park using the [wdpar package](https://prioritizr.github.io/wdpar/reference/wdpar.html). This park boundary is then used as the area of interest (AOI) for the deforestation analysis with the [gfcanalysis package](https://github.com/azvoleff/gfcanalysis). 
+Below is R the code I used to download the boundaries of a national park using the [wdpar package](https://prioritizr.github.io/wdpar/reference/wdpar.html). This park boundary is then used as the area of interest (AOI) for the deforestation analysis with the [gfcanalysis package](https://github.com/azvoleff/gfcanalysis). 
 
 
-### Get the Data and Make the Analysis
+## Get the Data and Make the Analysis
 
 This part download the park limit and makes the deforestation analysis. 
 
@@ -51,17 +50,18 @@ library (tidyverse)
 # directory to download Hansen Files
 data_folder <- 'C:/tmp/Hansen_downloads/Katios'
 
+# get all protected areas in Colombia
 col_raw_pa_data <- wdpa_fetch(
   "COL", wait = TRUE, download_dir = data_folder
 )
 
 # clean Colombia data
-# be patient... takes some time
+# be patient... takes some time...
 col_pa_data <- wdpa_clean(col_raw_pa_data)
 # filter Katios National Park
 Katios_NP <- col_pa_data %>% filter(NAME == "Los Katíos")
 
-# add a bufber around to get a better context
+# add a buffer around to get a better context
 buffered_Katios_NP <- st_buffer(Katios_NP, dist = 15000) # Buffer by 15 km 
 
 # Area of interest --- Katios National Park sf file
@@ -96,9 +96,9 @@ Katios_annual_stack <- annual_stack(gfc_thresholded)
 
 ```   
 
-Katios_annual_stack is a raster brick from the old raster package. So in the next part we convert that object to a rast object using the [terra package](https://rspatial.github.io/terra/) and use that rast stack as input for the animation. 
+Katios_annual_stack is a raster brick from the old raster package. So in the next part we convert that object to a SpatRaster object using the [terra package](https://rspatial.github.io/terra/) and use that SpatRaster "stack" as input for the animation. 
 
-### Make the Animation
+## Make the Animation
 
 ```r
 library(tmap)
