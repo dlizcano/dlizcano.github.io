@@ -21,7 +21,7 @@ last_modified_at: 2025-10-10T01:24:36-0400
 ---
 
 
-Recently I have adquired a Raspberry pi 4 and decided to upgrade my [BirdNet-pi station Entrelomas](https://app.birdweather.com/data/K9kBtRztpJHkdiXSnfWyi3nr) to  BirdNET-Go [in the same location](https://app.birdweather.com/stations/18147). BirdNET-GO is a newer BirdNET-based project. 
+Recently I have adquired a Raspberry pi 4 and decided to upgrade my [BirdNet-Pi station Entrelomas](https://app.birdweather.com/data/K9kBtRztpJHkdiXSnfWyi3nr) to  BirdNET-Go [in the same location](https://app.birdweather.com/stations/18147). BirdNET-GO is a newer BirdNET-based project. 
 
 # Real-Time Soundscape Analysis: Exploring BirdNET-Go and Custom Data Logging
 
@@ -64,7 +64,7 @@ I leveraged BirdNET-Go's tight integration with Home Assistant and created a sim
 
 ### This is what you need:
 
-1. Setup:
+- 1. Setup:
 
 Save this Python script to: `/config/scripts/save_audio_data.py`. 
 
@@ -130,14 +130,14 @@ if __name__ == "__main__":
 
 ```
 
-2. Add this to `configuration.yaml` in Home Asistant
+- 2. Add this to `configuration.yaml` in Home Asistant
 
 ```yaml
 shell_command:
   save_audio_data_csv: python3 /config/scripts/save_audio_data.py '{{ json_data }}'
 ```
 
-3. Add this automation in Home Assistant. for that go to: Settings → Automations → Create Automation → Edit in YAML, then paste the automation code.
+- 3. Add this automation in Home Assistant. For that go to: Settings → Automations → Create Automation → Edit in YAML, then paste the automation code.
 
 ```yaml
 alias: BirdNET Audio Data to CSV
@@ -150,12 +150,13 @@ max: 10
 action:
   - service: shell_command.save_audio_data_csv
     data:
-      json_data: "{{ trigger.payload }}"
+      json_data:"{{ trigger.payload }}"
+
 
 ```
-Notice the `topic: birdnet-go/soundlevel` shold be the same topic you configure in BirdNET-GO. 
+Notice the `topic: birdnet-go/soundlevel` should be the same topic you configure in BirdNET-GO.  Also notice the last line is: json_data: "{{ trigger.payload }}"
 
-4. Restart Home Assistant
+- 4. Restart Home Assistant
 
 > Voila!!! you have a csv file that grows by twenty rows each minute.
 {: .notice--warning} 
