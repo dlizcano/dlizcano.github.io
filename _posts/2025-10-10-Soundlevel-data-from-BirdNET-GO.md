@@ -156,7 +156,7 @@ action:
 
 
 ```
-Notice the `topic: birdnet-go/soundlevel` should be the same topic you configure in BirdNET-GO.  Also notice the last line includes inside the "": {{trigger.payload}}. For some reason GitHub prevent to visualize it properly.
+Notice the `topic: birdnet-go/soundlevel` should be the same topic you configure in BirdNET-GO.  Also notice the last line includes inside the "" the word trigger.payload surrounded by double bracket **{{}}**. For some reason GitHub prevent to visualize it properly.
 
 #### 4. Restart Home Assistant
 
