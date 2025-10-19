@@ -48,7 +48,7 @@ Beyond simple species identification, BirdNET-Go includes a powerful feature cal
 
 The system registers sound levels in [**1/3 octave bands**](https://www.engineeringtoolbox.com/octave-bands-frequency-limits-d_1602.html), providing a detailed frequency breakdown of the soundscape. This data is recorded as frequently as every ten seconds, offering continuous, advanced audio monitoring that gives a far richer picture of the overall soundscape than just a list of bird names.
 
-![BirdNET-GO_Audio_setting](/images/birdnet/BirdNET-GO_Audio_setting.JPG)
+![BirdNET-GO_Audio_setting](/images/birdnet/BirdNET-GO_Audio_setting.jpg)
 
 Notice I selected to get data each 30 seconds.
 
