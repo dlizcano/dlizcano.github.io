@@ -12,7 +12,7 @@ tags:
   - acustica
   - BirdNET-Pi 
 header:
-  teaser: "/images/birdnetpi/BirdNET-Go-logo.png"
+  teaser: "/images/birdnetgo/BirdNET-Go-logo.png"
   overlay_image: /images/texture-feature-6-2025.jpg
   caption: "Photo: [Aviario Nacional, Baru, Colombia. Diego J. Lizcano](https://www.instagram.com/walking_tapir/)"
 comments: true
@@ -37,7 +37,7 @@ Without the tireless efforts of these two incredible developers and all the many
 
 BirdNET-Go provides a clean, modern web interface where users can easily view detected birds, analyze their frequencies, and play back captured recordings. It also includes a streamlined, resource-light (compared with BirdNET-Pi) analytics dashboard.
 
-![BirdNET-GO Dashboard](/images/birdnet/BirdNET-GO_dashboard.png)  
+![BirdNET-GO Dashboard](/images/birdnetgo/BirdNET-GO_dashboard.png)  
 
 
 However, the most interesting feature, especially for home users, is its seamless integration with **Home Assistant** via MQTT. It supports audio streams directly via **RTSP**, which is the standard protocol for streaming video and audio from common IP cameras. This allows users to turn existing security hardware into a powerful, real-time acoustic monitoring station.
@@ -48,7 +48,7 @@ Beyond simple species identification, BirdNET-Go includes a powerful feature cal
 
 The system registers sound levels in [**1/3 octave bands**](https://www.engineeringtoolbox.com/octave-bands-frequency-limits-d_1602.html), providing a detailed frequency breakdown of the soundscape. This data is recorded as frequently as every ten seconds, offering continuous, advanced audio monitoring that gives a far richer picture of the overall soundscape than just a list of bird names.
 
-![BirdNET-GO_Audio_setting](/images/birdnet/BirdNET-GO_Audio_setting.jpg)
+![BirdNET-GO_Audio_setting](/images/birdnetgo/BirdNET-GO_Audio_setting.jpg)
 
 Notice I selected to get data each 30 seconds.
 
@@ -64,7 +64,7 @@ I leveraged BirdNET-Go's tight integration with Home Assistant and created a sim
 
 ### This is what you need:
 
-- 1. Setup:
+#### 1. Setup:
 
 Save this Python script to: `/config/scripts/save_audio_data.py`. 
 
@@ -130,14 +130,16 @@ if __name__ == "__main__":
 
 ```
 
-- 2. Add this to `configuration.yaml` in Home Asistant
+#### 2. Add this to `configuration.yaml` in Home Asistant
 
 ```yaml
 shell_command:
   save_audio_data_csv: python3 /config/scripts/save_audio_data.py '{{ json_data }}'
 ```
 
-- 3. Add this automation in Home Assistant. For that go to: Settings → Automations → Create Automation → Edit in YAML, then paste the automation code.
+#### 3. Add this automation in Home Assistant. 
+
+For that go to: Settings → Automations → Create Automation → Edit in YAML, then paste the automation code.
 
 ```yaml
 alias: BirdNET Audio Data to CSV
@@ -156,12 +158,16 @@ action:
 ```
 Notice the `topic: birdnet-go/soundlevel` should be the same topic you configure in BirdNET-GO.  Also notice the last line is: json_data: "{{ trigger.payload }}"
 
-- 4. Restart Home Assistant
+#### 4. Restart Home Assistant
 
 > Voila!!! you have a csv file that grows by twenty rows each minute.
 {: .notice--warning} 
 
+### To download the csv data
 
+I use [WinSCP](https://winscp.net/) to make the file trasnsfer to and from my server.
+
+![BirdNET-GO_Audio_setting](/images/birdnetgo/window_WinSCP.PNG)
 
 <p>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
