@@ -47,13 +47,13 @@ However, the most interesting feature, especially for home users, is its seamles
 
 ### The Game-Changer: Soundscape Context
 
-Beyond simple species identification, BirdNET-Go includes a powerful feature called **Sound Level Monitoring**. This is crucial for understanding the *acoustic context* of the environment, which helps in filtering unwanted noise and provides invaluable sounscape data for researchers.
+Beyond simple species identification, BirdNET-Go includes a powerful feature called [**Sound Level Monitoring**](https://github.com/tphakala/birdnet-go/blob/main/doc/wiki/guide.md#sound-level-monitoring). This is crucial for understanding the *acoustic context* of the environment, which helps in filtering unwanted noise and provides invaluable sounscape data for researchers.
 
-The system registers sound levels in [**1/3 octave bands**](https://www.engineeringtoolbox.com/octave-bands-frequency-limits-d_1602.html), providing a detailed frequency breakdown of the soundscape. This data is recorded as frequently as every ten seconds, offering continuous, advanced audio monitoring that gives a far richer picture of the overall soundscape than just a list of bird names.
+The system registers sound levels in [**1/3 octave bands**](https://www.engineeringtoolbox.com/octave-bands-frequency-limits-d_1602.html), following the ISO 266 standard, providing a detailed frequency breakdown of the soundscape. This data can be useful to [calculate the Noise Criterion (NC) - level](https://www.engineeringtoolbox.com/nc-noise-criterion-d_725.html).  The data is recorded as frequently as every ten seconds, offering continuous, advanced audio monitoring that gives a far richer picture of the overall soundscape than just a list of bird names.
 
 ![BirdNET-GO_Audio_setting](/images/birdnetgo/BirdNET-GO_Audio_setting.jpg)
 
-Notice I selected to get data each 30 seconds.
+Notice I selected to get data each 30 seconds and not each 10 as default.
 
 ### The Data Challenge: Optimizing for a Home Server
 
@@ -61,7 +61,7 @@ While this **Sound Level** data is incredibly valuable, accessing it required a 
 
 Sound level data from BirdNET-GO can be published via **MQTT** or accessed through a **Prometheus-compatible endpoint**, and it's typically consumed by databases such as [**InfluxDB**](https://www.influxdata.com/) for high-resolution time series, and for its visualization is common to use tools like [Grafana](https://grafana.com/grafana/?plcmt=products-nav).
 
-But dedicating that much processing power and space to a separate database in InfluxDB and for Grafana to visualize wasn't a viable option for my old laptop as home server. To keep the resource load minimal, I decided on a low-tech, simple and diferent approach:
+But dedicating that much processing power and space to a separate database in InfluxDB and for Grafana to visualize wasn't a viable option for my Raspberry-Pi 4 or my old laptop as home server. To keep the resource load minimal, I decided on a low-tech, simple and diferent approach:
 
 I leveraged BirdNET-Go's tight integration with Home Assistant and created a simple **automation** to capture the necessary sound level attributes and write them directly to a local **CSV file**. This file now serves as my lightweight data repository, ready for deeper analysis and visualization using **R**. 
 
