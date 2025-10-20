@@ -75,92 +75,18 @@ Save this Python script to: `/config/scripts/save_audio_data.py`.
 
 This script reads the JSON data embeeded in the MQTT, extracting the time, frequency, noise, mean and maximum data, and save it as a new row in the soundlevel_data.csv file.  Notice the file path at `/config/www/`.
 
+<script src="https://gist.github.com/dlizcano/be069b6feea3f742a6a2f0a37a51d05c.js"></script>
 
-```python
+#### 2. Add this to `configuration.yaml` in Home Assistant
 
-# extract data from JSON make it CSV
-# made by claude.ai to Diego Lizcano
-import json
-import csv
-import sys
-from pathlib import Path
-from datetime import datetime
-
-def save_audio_data_to_csv(json_data):
-    # Parse the JSON
-    data = json.loads(json_data)
-    
-    # Define CSV file path
-    csv_file = Path("/config/www/soundlevel_data.csv")
-    
-    # Check if file exists to determine if we need headers
-    file_exists = csv_file.exists()
-    
-    # Open CSV file in append mode
-    with open(csv_file, 'a', newline='') as f:
-        # Prepare rows for each frequency band
-        rows = []
-        
-        for band_name, band_data in data['b'].items():
-            row = {
-                'timestamp': data['ts'],
-                'frequency': band_data['f'],
-                'noise': band_data['n'],
-                'max': band_data['x'],
-                'mean': band_data['m']
-            }
-            rows.append(row)
-        
-        # Write to CSV
-        if rows:
-            fieldnames = ['timestamp', 'frequency', 'noise', 'max', 'mean']
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            
-            # Write header only if file is new
-            if not file_exists:
-                writer.writeheader()
-            
-            # Write all rows
-            writer.writerows(rows)
-    
-    print(f"Saved {len(rows)} frequency bands to {csv_file}")
-
-if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        json_data = sys.argv[1]
-        save_audio_data_to_csv(json_data)
-    else:
-        print("Error: No JSON data provided")
-        sys.exit(1)
-
-```
-
-#### 2. Add this to `configuration.yaml` in Home Asistant
-
-```yaml
-shell_command:
-  save_audio_data_csv: python3 /config/scripts/save_audio_data.py '{{ json_data }}'
-```
+<script src="https://gist.github.com/dlizcano/06ef4578975b240503c83fa41239bef8.js"></script>
 
 #### 3. Add this automation in Home Assistant. 
 
 For that go to: Settings → Automations → Create Automation → Edit in YAML, then paste the automation code.
 
-```yaml
-alias: BirdNET Audio Data to CSV
-description: Capture audio frequency data from BirdNET-Go MQTT and save to CSV
-trigger:
-  - platform: mqtt
-    topic: birdnet-go/soundlevel
-mode: queued
-max: 10
-action:
-  - service: shell_command.save_audio_data_csv
-    data:
-      json_data:"{{ trigger.payload }}"
+<script src="https://gist.github.com/dlizcano/8bd69131664d7cce10b7956c6703468f.js"></script>
 
-
-```
 Notice the `topic: birdnet-go/soundlevel` should be the same topic you configure in BirdNET-GO.  Also notice the last line includes inside the "" the word `trigger.payload` surrounded by double bracket **{}**. For some reason GitHub prevent to visualize it properly.
 
 ![trigger.payload](/images/birdnetgo/triger.jpg)
