@@ -27,7 +27,7 @@ Recently I have adquired a Raspberry pi 4 and decided to upgrade my [BirdNet-Pi 
 
 I want to start with a massive shout-out to the developers who made this all possible. My deepest thanks go to [**Tomi P. Hakala**](https://github.com/tphakala), who built [BirdNET-Go](https://github.com/tphakala/birdnet-go) on top of the core [BirdNET project](https://birdnet.cornell.edu/), and to [**mcguirepr89**](https://github.com/mcguirepr89) for his foundational work on the original [BirdNET-Pi](https://github.com/Nachtzuster/BirdNET-Pi) project, now directed by [**Nachtzuster**](https://github.com/Nachtzuster) on which I've relied on extensively.
 
-Without the tireless efforts of these two incredible developers and all the many project contributors! my journey into bird and biodiversity monitoring as a citizen scientist simply wouldn't have been possible.
+Without the tireless efforts of these two incredible developers and all the many project contributors! my journey into birding and biodiversity monitoring as a citizen scientist simply wouldn't have been possible.
 
 ## Introducing BirdNET-Go: A High-Performance Acoustic Monitoring Tool
 
@@ -35,10 +35,13 @@ Without the tireless efforts of these two incredible developers and all the many
 
 ### Sleek Interface and Critical Integrations
 
-BirdNET-Go provides a clean, modern web interface where users can easily view detected birds, analyze their frequencies, and play back captured recordings. It also includes a streamlined, resource-light (compared with BirdNET-Pi) analytics dashboard.
+BirdNET-Go provides a clean, modern web interface where users can easily view detected birds, analyze their frequencies, and play back captured recordings. 
 
 ![BirdNET-GO Dashboard](/images/birdnetgo/BirdNET-GO_dashboard.png)  
 
+It also includes a streamlined, resource-light analytics dashboard, compared with the one in BirdNET-Pi that takes much longer to load. I also love the posibility to export the data as a csv file.
+
+![BirdNET-GO Dashboard](/images/birdnetgo/BirdNET-GO_Analytics.jpg)  
 
 However, the most interesting feature, especially for home users, is its seamless integration with **Home Assistant** via MQTT. It supports audio streams directly via **RTSP**, which is the standard protocol for streaming video and audio from common IP cameras. This allows users to turn existing security hardware into a powerful, real-time acoustic monitoring station.
 
@@ -172,6 +175,8 @@ Notice the `topic: birdnet-go/soundlevel` should be the same topic you configure
 I use [WinSCP](https://winscp.net/) to make the file trasnsfer from and to my home server.
 
 ![BirdNET-GO_Audio_setting](/images/birdnetgo/window_WinSCP.PNG)
+
+Of course BirdNET-GO is still a work on progress and its down side is that if you use an older, or diferent browser to Chrome, the visualization can freeze. 
 
 <p>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
