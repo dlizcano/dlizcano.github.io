@@ -56,11 +56,13 @@ Notice I selected to get data each 30 seconds.
 
 While this sound level data is incredibly valuable, accessing it required a solution tailored to my home lab server, which is an old Dell laptop running Home Assistant in Proxmox. By the way [here I got the inspiration to build it](https://www.youtube.com/watch?v=wX75Z-4MEoM). 
 
-Sound level data from BirdNET-GO can be published via **MQTT** or accessed through a **Prometheus-compatible endpoint**, and it's typically consumed by databases such as [**InfluxDB**](https://www.influxdata.com/) for high-resolution time series, and for its visualization is common to use in tools like [Grafana](https://grafana.com/grafana/?plcmt=products-nav).
+Sound level data from BirdNET-GO can be published via **MQTT** or accessed through a **Prometheus-compatible endpoint**, and it's typically consumed by databases such as [**InfluxDB**](https://www.influxdata.com/) for high-resolution time series, and for its visualization is common to use tools like [Grafana](https://grafana.com/grafana/?plcmt=products-nav).
 
-But dedicating that much processing power to a separate database stack and Grafana wasn't a viable option for my older home server. To keep the resource load minimal, I decided on a low-tech, high-impact approach:
+But dedicating that much processing power to a separate database in InfluxDB and Grafana wasn't a viable option for my old laptop as home server. To keep the resource load minimal, I decided on a low-tech, simple and diferent approach:
 
-I leveraged BirdNET-Go's tight integration with Home Assistant and created a simple **automation** to capture the necessary sound level attributes and write them directly to a local **CSV file**. This file now serves as my lightweight data repository, ready for deeper analysis and visualization using **R**.
+I leveraged BirdNET-Go's tight integration with Home Assistant and created a simple **automation** to capture the necessary sound level attributes and write them directly to a local **CSV file**. This file now serves as my lightweight data repository, ready for deeper analysis and visualization using **R**. 
+
+The inspiration to integrate Home Assistant with BirdNET-GO came from [Kyle Niewiada](https://www.kyleniewiada.org/blog/2025/05/backyard-bird-tracking-with-ai/). 
 
 ### This is what you need:
 
@@ -68,7 +70,7 @@ I leveraged BirdNET-Go's tight integration with Home Assistant and created a sim
 
 Save this Python script to: `/config/scripts/save_audio_data.py`. 
 
-This script reads the JSON data embeeded in the MQTT extracting the time, frequency, noise, mean and maximum data, and save it as a new row in the soundlevel_data.csv file.  Notice the file path at `/config/www/`.
+This script reads the JSON data embeeded in the MQTT, extracting the time, frequency, noise, mean and maximum data, and save it as a new row in the soundlevel_data.csv file.  Notice the file path at `/config/www/`.
 
 
 ```python
@@ -156,16 +158,18 @@ action:
 
 
 ```
-Notice the `topic: birdnet-go/soundlevel` should be the same topic you configure in BirdNET-GO.  Also notice the last line includes inside the "" the word trigger.payload surrounded by double bracket **{{}}**. For some reason GitHub prevent to visualize it properly.
+Notice the `topic: birdnet-go/soundlevel` should be the same topic you configure in BirdNET-GO.  Also notice the last line includes inside the "" the word `trigger.payload` surrounded by double bracket **{}**. For some reason GitHub prevent to visualize it properly.
+
+![trigger.payload](/images/birdnetgo/triger.jpg)
 
 #### 4. Restart Home Assistant
 
-> Voila!!! you have a csv file that grows by twenty rows each minute.
+> Voila!!! you have a csv file that grows by twenty rows each minute storing sound levels.
 {: .notice--warning} 
 
 ### To download the csv data
 
-I use [WinSCP](https://winscp.net/) to make the file trasnsfer to and from my server.
+I use [WinSCP](https://winscp.net/) to make the file trasnsfer from and to my home server.
 
 ![BirdNET-GO_Audio_setting](/images/birdnetgo/window_WinSCP.PNG)
 
