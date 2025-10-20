@@ -21,7 +21,9 @@ last_modified_at: 2025-10-10T01:24:36-0400
 ---
 
 
-Recently I have adquired a Raspberry pi 4 and decided to upgrade my [BirdNet-Pi station Entrelomas](https://app.birdweather.com/data/K9kBtRztpJHkdiXSnfWyi3nr) to  BirdNET-Go [in the same location](https://app.birdweather.com/stations/18147). BirdNET-GO is a newer BirdNET-based project. 
+# BirdNET-GO is a newer BirdNET-based project. 
+
+Recently I have adquired a Raspberry pi 4 and decided to upgrade my [BirdNet-Pi station Entrelomas](https://app.birdweather.com/data/K9kBtRztpJHkdiXSnfWyi3nr) to  BirdNET-Go [in the same location](https://app.birdweather.com/stations/18147). 
 
 # Real-Time Soundscape Analysis: Exploring BirdNET-Go and Custom Data Logging
 
