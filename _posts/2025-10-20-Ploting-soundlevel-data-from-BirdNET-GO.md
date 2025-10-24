@@ -30,7 +30,10 @@ The system registers sound levels in [**1/3 octave bands**](https://www.engineer
 
 ## Getting the data
 
-In the [past post, I explain more details about the sound levels and my custom solution.]{https://dlizcano.github.io/english/Soundlevel-data-from-BirdNET-GO/} 
+In the past post, I explain more details about the 
+[sound levels and my custom solution]9https://dlizcano.github.io/english/Soundlevel-data-from-BirdNET-GO/).
+
+
 
 At the end I have a CSV file that grows as fast as a Mega per day. 
 
@@ -80,15 +83,15 @@ I tried to match the time with some acoustic events...
 #### Why the sound levels are in negative scale? 
 
 
-In my BirdNET-GO data, the reference (0 dB) is set to the maximum possible level of the microphone (without distortion) that I use to capture the sound. In my case I am using a cheap [MAONO USB Lavalier Microphone]{https://www.amazon.com/Microphone-MAONO-Omnidirectional-Microphone-Recording-Broadcasting/dp/B074BLM973}. It says is capable of recording at 192KHZ/24BIT. So -80 dB in the graph mean it is very quiet and 0 is very noisy. 
+In my BirdNET-GO data, the reference (0 dB) is set to the maximum possible level of the microphone (without distortion) that I use to capture the sound. In my case I am using a cheap [MAONO USB Lavalier Microphone](https://www.amazon.com/Microphone-MAONO-Omnidirectional-Microphone-Recording-Broadcasting/dp/B074BLM973?th=1). It says is capable of recording at 192KHZ/24BIT and has an audio sensitivity of 30 Decibels. So -80 dB in the graph mean it is very quiet and 0 is very noisy, not real decibels. Perhaps I need to do some type of calibration here.
 
 My readings range from about -45 dB to -89 dB, this suggests a relatively quiet environment (birds, ambient noise, and low noise). The higher frequencies (10-20 kHz) are much quieter (-80 to -89), which is normal for rural or natural soundscapes.
 
 #### Why this scale is useful:
-The logarithmic nature of the data matches how our ears perceive sound - a change of 10 dB is roughly perceived as "twice as loud." So it also makes it easier to handle the huge range of sound intensities we encounter.
+The logarithmic nature of the data matches how our ears perceive sound - a change of 10 dB is roughly perceived as "twice as loud." So it also makes it easier to handle the huge range of sound intensities we encounter in the environment.
 
 
-> My sound level data is totally normal! The negative values just mean everything is below the mic's maximum capacity, which is good... or perhaps I heed a much better mic?.
+> My sound level data is totally normal! The negative values just mean everything is related to the mic's maximum capacity, which is good... or perhaps I need a much better mic?.
 {: .notice--warning} 
 
 
