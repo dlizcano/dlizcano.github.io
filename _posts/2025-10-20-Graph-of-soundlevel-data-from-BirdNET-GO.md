@@ -1,5 +1,5 @@
 ---
-title: "Saving Sound Level Data from BirdNET-GO to a CSV file"
+title: "Graph of Sound Level Data from BirdNET-GO to a CSV file"
 show_date: true
 toc: true
 category: 
