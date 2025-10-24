@@ -31,7 +31,7 @@ The system registers sound levels in [**1/3 octave bands**](https://www.engineer
 ## Getting the data
 
 In the past post, I explain more details about the 
-[sound levels and my custom solution]9https://dlizcano.github.io/english/Soundlevel-data-from-BirdNET-GO/).
+[sound levels and my custom solution](https://dlizcano.github.io/english/Soundlevel-data-from-BirdNET-GO/).
 
 
 
