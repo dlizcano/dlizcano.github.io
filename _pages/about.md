@@ -15,7 +15,9 @@ modified: 2024-04-29T13:15:36-0400
 ## Harnessing the Power of Ecology
 
 I help organizations and businesses find **science-based, sustainable solutions** to biodiversity challenges.  
-With expertise in **ecology, wildlife monitoring, and biodiversity conservation**, I use tools like camera traps, acoustic surveys, and data modeling with  [{{< fa brands r-project >}}](https://www.r-project.org/about.html) to guide informed decisions and measure environmental impact.
+
+With expertise in **ecology, wildlife monitoring, and biodiversity conservation**, I use tools like camera traps, acoustic surveys, and data modeling, to guide informed decisions and measure environmental impact.  
+
 
 **Ph.D. in Biodiversity Management (University of Kent, UK)** | Data Analyst for **Wildlife Conservation Society (WCS)** | Former **Biodiversity Specialist** at DAI-USAID, Awake Travel, and The Nature Conservancy (TNC).
 
