@@ -9,7 +9,7 @@ tags:
   - Package
   - Mammal
 header:
-  teaser: "/images/mammalcol/logo_mammalcol.png"
+  teaser: "/images/mammalcol/mammalcol_to_cran.png"
   overlay_image: /images/texture-feature-08.jpg
   caption: "Photo: [Mountain Tapirs, Los Nevados National Park. Diego J. Lizcano](https://www.instagram.com/walking_tapir/)"
 comments: true
@@ -21,6 +21,8 @@ last_modified_at: 2025-10-30T01:24:36-0400
 # mammalcol is on CRAN!
 
 I woke up this morning to an email I wasn't quite expecting — `mammalcol`, my R package for exploring the mammals of Colombia, had been accepted to CRAN. I sat there for a moment, coffee in hand, feeling a mix of relief and quiet pride. It's been quite a journey to get here.
+
+![BirdNET-GO Dashboard](/images/mammalcol/logo_mammalcol.png) 
 
 ## It started with a messy camera trap dataset
 
