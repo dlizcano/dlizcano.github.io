@@ -1,5 +1,5 @@
 ---
-title: "mammalcol is on CRAN"
+title: "My first R package is on CRAN!"
 show_date: true
 toc: true
 category: 
