@@ -35,11 +35,6 @@ modified: 2024-04-29T13:15:36-0400
 
 
 
-
-
-
-
-
 ## Presentations  
   
 - [Ocupancy Modeling Workshop. OTS 2022 (English)](https://dlizcano.github.io/OTS/Occupancy.html)
