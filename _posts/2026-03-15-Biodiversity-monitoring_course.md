@@ -81,7 +81,9 @@ Este curso fue posible gracias a la colaboración de múltiples organizaciones y
 
 
 
-![El grupo en la mano del Parque Jaime Duque](/images/curso_2026/Foto5.jpg)
+![El grupo en la mano del Parque Jaime Duque](/images/curso_2026/Foto5.jpg) 
+
+Foto del grupo en la mano del Parque Jaime Duque.
 
 > Por primera vez tuve la oportunidad de dar clase en el Taj Mahal... jejejeje... 
 
