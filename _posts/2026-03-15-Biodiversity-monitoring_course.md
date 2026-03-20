@@ -24,8 +24,8 @@ gallery:
     image_path: /images/curso_2026/Foto4.jpg
     alt: "Mauricio Vela"
     title: "Mauricio Vela"
-  - url: /images/curso_2026/Foto3.jpg
-    image_path: /images/curso_2026/Foto3.jpg
+  - url: /images/curso_2026/foto3.jpg
+    image_path: /images/curso_2026/foto3.jpg
     alt: "Diego Lizcano"
     title: "Diego Lizcano"
   - url: /images/curso_2026/Foto7.jpg
