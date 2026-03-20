@@ -79,10 +79,11 @@ Si quieres profundizar en la importancia de las simulaciones y el concepto ecol�
 
 Este curso fue posible gracias a la colaboración de múltiples organizaciones y al trabajo de Yeimy Castillo y Mauro quienes desde el Parque Jaime Duque empujaron para que todo saliera de la mejor forma. 
 
-> Por primera vez tuve la oportunidad de dar clase en el Taj Mahal... jejejeje... 
+
 
 ![El grupo en la mano del Parque Jaime Duque](/images/curso_2026/Foto5.jpg)
 
+> Por primera vez tuve la oportunidad de dar clase en el Taj Mahal... jejejeje... 
 
 <p>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
