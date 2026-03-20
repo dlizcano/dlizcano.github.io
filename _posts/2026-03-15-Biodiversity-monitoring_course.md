@@ -38,7 +38,7 @@ gallery:
 
 # Curso version 2026!
 
-El viernes 13 de marzo del 2026 hicimos algo que nos gusta mucho desde la [Red Colombiana de Fototrampeo](https://redfototrampeo.netlify.app/) y es abrir las puertas para compartir nuestra experiencia en un curso de Monitoreo de Biodiversidad con Trampas Cámara y Modelos de Ocupación con R, hubo una sesión teórica y dos practicas con y mucho código, datos, modelos y mapas apareciendo en pantalla en tiempo real. Nos acompañaron personas de Bogotá, Bucaramanga, Pereira y Tunja. 
+El viernes 13 de marzo del 2026 hicimos algo que nos gusta mucho desde la [Red Colombiana de Fototrampeo](https://redfototrampeo.netlify.app/) y la [Sociedad Colombiana de Mastozoología](https://www.mamiferoscolombia.org), y es abrir las puertas para compartir nuestra experiencia en un curso de Monitoreo de Biodiversidad con Trampas Cámara y Modelos de Ocupación con R, hubo una sesión teórica y dos practicas con y mucho código, datos, modelos y mapas apareciendo en pantalla en tiempo real. Nos acompañaron personas de multiples organizaciones provinientes de Bogotá, Bucaramanga y Pereira. 
 
 ![Curso 2026](/images/curso_2026/foto1.jpg)
 
