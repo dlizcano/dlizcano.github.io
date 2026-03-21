@@ -59,13 +59,13 @@ La dinámica fue completamente en vivo: con código real, datos reales de la Cor
 
 ## El material del segundo dia esta disponible
 
-Si no pudiste asistir al curso en vivo, o si estuviste y querés repasar un poco, acá está el recurso del segundo dia:
+Si no pudiste asistir al curso en vivo, o si estuviste y quieres repasar un poco, acá está el recurso del segundo dia:
 
 👉🏻 [Codigo y Tutorial](https://dlizcano.github.io/cameratrap/posts/2026-01-01-wildlifeinsights-to-detections/)
 
-# ¿Como seguir o profundizar mas?
+# ¿Como seguir o profundizar más?
 
-Si quieres aprender o profundizar tus habilidades con R
+Si quieres repasar, aprender más o profundizar tus habilidades con R
 
 👉🏻 [Acá un tutorial](https://dlizcano.github.io/IntroR/)
 
@@ -77,7 +77,7 @@ Si quieres profundizar en la importancia de las simulaciones y el concepto ecol�
 # La sede del curso
 
 
-Este curso fue posible gracias a la colaboración de múltiples organizaciones y al trabajo de Yeimy Castillo y Mauro quienes desde el Parque Jaime Duque empujaron para que todo saliera de la mejor forma. 
+Este curso fue posible gracias a la colaboración de múltiples organizaciones y al trabajo de **Yeimy Castillo** y **Mauro** quienes desde el Parque Jaime Duque empujaron para que todo saliera de la mejor forma. 
 
 
 
