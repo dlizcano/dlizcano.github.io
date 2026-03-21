@@ -44,9 +44,9 @@ El viernes 13 de marzo del 2026 hicimos algo que nos gusta mucho desde la [Red C
 
 # Lo que hemos hecho
 
-Laín Pardo sentó las bases mostrando el aspecto histórico y la importancia de la pregunta de investigación en el fototrampeo. Mauricio Vela nos contó sobre el paso siguiente al modelado de la ocupación y es entender el movimiento de los animales y la importancia del rango de hogar para diseñar un buen muestreo en los modelos de ocupación. Angélica Díaz ilustró el uso de wildlife insights y como esta herramienta ahorra tiempo valioso y facilita la colaboración.
+Laín Pardo sentó las bases mostrando el aspecto histórico y la importancia de la pregunta de investigación en el fototrampeo. Mauricio Vela nos contó sobre el paso siguiente al modelado de la ocupación y es entender el movimiento de los animales y la importancia del rango de hogar para diseñar un buen muestreo en los modelos de ocupación. Angélica Díaz ilustró el uso de wildlife insights y como esta herramienta ahorra tiempo valioso y facilita la colaboración. Luego vino una inmersión al aspecto histórico de los modelos de ocupación y la importancia de los muestreos repetidos para solucionar el problema de la detección imperfecta. 
 
-Luego vino una inmersión al aspecto histórico de los modelos de ocupación y la importancia de los muestreos repetidos para solucionar el problema de la detección imperfecta. El segundo y tercer día fueron totalmente en la práctica con código en R.
+El segundo y tercer día fueron totalmente en la práctica con código en R.
 
 
 {% include gallery id="gallery" layout="half" caption="Fotos del dia 1 y 2" %}
