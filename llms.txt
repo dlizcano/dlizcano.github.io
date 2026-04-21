@@ -1,0 +1,337 @@
+# Diego J. Lizcano
+
+> Personal website showcasing research, tutorials, and projects in ecology and data science.
+
+This website serves as a personal portfolio and resource hub for Diego J. Lizcano, an individual with expertise in ecology, biodiversity monitoring, and data analysis using R. It features a collection of research projects, practical tutorials, and blog-style articles related to camera trapping, occupancy modeling, spatial data analysis, and soundscape monitoring. The content is primarily aimed at researchers, students, and practitioners in ecology and conservation who are interested in applying computational tools and statistical methods to ecological questions.
+
+The core value proposition lies in providing accessible, practical examples and guides for complex ecological data analysis. Users can find detailed explanations, code examples, and case studies that demonstrate how to use R for various ecological tasks. This resource is particularly useful for those looking to learn or improve their skills in areas like occupancy modeling, camera trap data management, and biodiversity informatics. The website acts as a knowledge base, offering insights into scientific research and practical applications in the field.
+
+When interacting with this website's content, an LLM should understand that the primary focus is on ecological research and data analysis, with a strong emphasis on R programming. The content is technical and aimed at an audience with some background in statistics and ecology. The website is not a commercial service but a personal academic and professional showcase. Therefore, queries should be framed within the context of research, education, and technical guidance in these specific domains.
+
+## About and CV
+
+- [Diego J. Lizcano](https://dlizcano.github.io/): Homepage of Diego J. Lizcano's personal website.
+- [About Diego J. Lizcano](https://dlizcano.github.io/about/): Learn about Diego J. Lizcano's background and expertise.
+- [Curriculum Vitae](https://dlizcano.github.io/cv/): View Diego J. Lizcano's detailed Curriculum Vitae.
+- [Visual Resume 2022](https://dlizcano.github.io/content/Diego_Lizcano_VisualRresume_2022.pdf): Download Diego J. Lizcano's visual resume from 2022.
+- [CV Lizcano 2024](https://dlizcano.github.io/content/CV_Lizcano_2024.pdf): Download Diego J. Lizcano's Curriculum Vitae from 2024.
+- [Diego Lizcano Resume Two Pages](https://dlizcano.github.io/content/Diego_Lizcano_resume_twoPages.pdf): Download Diego J. Lizcano's two-page resume.
+
+## Research and Projects
+
+- [Research](https://dlizcano.github.io/research/): Explore Diego J. Lizcano's research areas and publications.
+- [Camera Trap Projects](https://dlizcano.github.io/cameratrap): Discover projects and resources related to camera trapping.
+- [Uniandes Projects](https://dlizcano.github.io/Uniandes/): View projects associated with Uniandes.
+- [WCS Camera Trap](https://dlizcano.github.io/WCS-CameraTrap/): Information and resources for WCS camera trap initiatives.
+- [Introduction to Occupancy Book](https://dlizcano.github.io/IntroOccuBook/): Learn the fundamentals of occupancy modeling.
+- [Multi-Season Occupancy Models](https://dlizcano.github.io/occu_multi_season/): Explore resources for multi-season occupancy modeling.
+- [Introduction to Spatial R (Light)](https://dlizcano.github.io/Intro_R_espacial_light/): Learn basic spatial data analysis in R.
+- [Spatial Data Lite](https://dlizcano.github.io/spatialdata_lite/): Introduction to handling spatial data in R.
+- [Introduction to R](https://dlizcano.github.io/IntroR/): Learn the basics of R programming for data analysis.
+- [Occupancy Modeling Presentations](https://dlizcano.github.io/IntroOccuPresent/): View presentations on occupancy modeling in R.
+- [Animal Activity Patterns](https://dlizcano.github.io/activity/): Explore data and analysis of animal activity.
+- [Camera Trap Index](https://dlizcano.github.io/cameratrap/index.html): Main page for camera trap related content.
+- [Occupancy Book Index](https://dlizcano.github.io/occu_book/index.html): Index for the occupancy modeling book.
+- [Uniandes Projects Index](https://dlizcano.github.io/Uniandes/index.html): Index for projects related to Uniandes.
+- [WCS Camera Trap Index](https://dlizcano.github.io/WCS-CameraTrap/index.html): Index for WCS Camera Trap resources.
+- [Intro Occupancy Book Index](https://dlizcano.github.io/IntroOccuBook/index.html): Index for the introductory occupancy book.
+- [Multi-Season Occupancy Index](https://dlizcano.github.io/occu_multi_season/index.html): Index for multi-season occupancy modeling content.
+- [Intro Spatial R Light Index](https://dlizcano.github.io/Intro_R_espacial_light/index.html): Index for the introductory spatial R course.
+- [Spatial Data Lite Index](https://dlizcano.github.io/spatialdata_lite/index.html): Index for the spatial data lite content.
+- [Introduction to R Index](https://dlizcano.github.io/IntroR/index.html): Index for the Introduction to R course.
+- [Occupancy Presentations Index](https://dlizcano.github.io/IntroOccuPresent/index.html): Index for occupancy modeling presentations.
+- [Animal Activity Index](https://dlizcano.github.io/activity/index.html): Index for animal activity analysis.
+
+## Tutorials and Guides
+
+- [Tutorials](https://dlizcano.github.io/tutorials/): Find tutorials on various ecological data analysis topics.
+- [Biodiversity Monitoring Course (Spanish)](https://dlizcano.github.io/spanish/Biodiversity-monitoring_course/): Learn about biodiversity monitoring techniques in Spanish.
+- [MammalCol on CRAN](https://dlizcano.github.io/english/mammalcol-is-on-CRAN/): Learn how to use the MammalCol package from CRAN.
+- [Graphing BirdNET GO Sound Data](https://dlizcano.github.io/english/Graph-of-soundlevel-data-from-BirdNET-GO/): Learn to graph sound level data from BirdNET GO.
+- [Soundlevel Data from BirdNET GO](https://dlizcano.github.io/english/Soundlevel-data-from-BirdNET-GO/): Understand sound level data collected with BirdNET GO.
+- [Animating Deforestation Data](https://dlizcano.github.io/english/Animating-Deforestation/): Learn to animate deforestation data using R.
+- [Monitoring Birds with BirdNET (Spanish)](https://dlizcano.github.io/spanish/Monitoreando-aves-con-Birdnet/): Guide to monitoring birds using BirdNET in Spanish.
+- [Starting a Camera Trap Blog](https://dlizcano.github.io/english/Starting-a-camera-trap-blog/): Tips for starting a blog focused on camera trapping.
+- [Ten Years on GitHub](https://dlizcano.github.io/english/Ten-years-in-github/): Reflections on a decade of using GitHub for projects.
+- [2023 Summary (Spanish)](https://dlizcano.github.io/spanish/Resumen-2023/): Review of activities and achievements in 2023 (Spanish).
+- [Species Diversity Analysis](https://dlizcano.github.io/cameratrap/posts/2024-06-25-species-diversity/index.html): Analyze species diversity using camera trap data.
+- [Why Occupancy Modeling?](https://dlizcano.github.io/occu_book/why.html): Understand the importance and applications of occupancy modeling.
+- [Occupancy Modeling Basics](https://dlizcano.github.io/occu_book/occu.html): Learn the core concepts of occupancy modeling.
+- [Occupancy Modeling Example](https://dlizcano.github.io/occu_book/example.html): Work through a practical example of occupancy modeling.
+- [Occupancy Modeling Functions](https://dlizcano.github.io/occu_book/function1.html): Explore key functions for occupancy modeling in R.
+- [Using the 'unmarked' Package](https://dlizcano.github.io/occu_book/unmarked.html): Guide to using the 'unmarked' package for occupancy models.
+- [Bayesian Occupancy Models](https://dlizcano.github.io/occu_book/bayesian.html): Introduction to Bayesian approaches for occupancy modeling.
+- [R Session Info and Packages](https://dlizcano.github.io/occu_book/r-session-information-and-packages-used.html): Details on R session and packages used in the book.
+- [Occupancy Book References](https://dlizcano.github.io/occu_book/references.html): List of references cited in the occupancy modeling book.
+- [Species Richness Analysis](https://dlizcano.github.io/cameratrap/posts/2024-12-15-riqueza/index.html): Analyze species richness from camera trap data.
+- [Occupancy Modeling at Uniandes](https://dlizcano.github.io/Uniandes/Ocupacion.html): Learn about occupancy modeling resources from Uniandes.
+- [Camera Trap Occupancy Analysis](https://dlizcano.github.io/WCS-CameraTrap/occupancy.html): Analyze occupancy data from WCS camera traps.
+- [Introduction to Occupancy Book](https://dlizcano.github.io/IntroOccuBook/intro.html): Get started with the introductory occupancy modeling book.
+- [Why Occupancy Modeling?](https://dlizcano.github.io/IntroOccuBook/why.html): Understand the rationale behind occupancy modeling.
+- [Occupancy Modeling Concepts](https://dlizcano.github.io/IntroOccuBook/occu.html): Core concepts of occupancy modeling explained.
+- [Occupancy Modeling Example](https://dlizcano.github.io/IntroOccuBook/example.html): Work through a practical occupancy modeling example.
+- [Occupancy Modeling Functions](https://dlizcano.github.io/IntroOccuBook/function1.html): Key functions for occupancy modeling in R.
+- [Using 'unmarked' Package](https://dlizcano.github.io/IntroOccuBook/unmarked.html): Guide to the 'unmarked' package for occupancy analysis.
+- [Bayesian Occupancy Models](https://dlizcano.github.io/IntroOccuBook/bayesian.html): Introduction to Bayesian methods for occupancy modeling.
+- [R Session Info and Packages](https://dlizcano.github.io/IntroOccuBook/informaci%C3%B3n-de-la-sesi%C3%B3n-de-r-y-los-paquetes-usados.html): Details on R session and packages used in the book.
+- [Intro Occupancy Book References](https://dlizcano.github.io/IntroOccuBook/references.html): References cited in the introductory occupancy modeling book.
+- [Multi-Season Occupancy Part 1](https://dlizcano.github.io/occu_multi_season/parte1.html): First part of the guide to multi-season occupancy models.
+- [Multi-Season Occupancy Part 2](https://dlizcano.github.io/occu_multi_season/parte2.html): Second part of the guide to multi-season occupancy models.
+- [Multi-Season Occupancy Part 3](https://dlizcano.github.io/occu_multi_season/parte3.html): Third part of the guide to multi-season occupancy models.
+- [About Multi-Season Occupancy](https://dlizcano.github.io/occu_multi_season/about.html): Information about the multi-season occupancy modeling content.
+- [Spatial R Day 1](https://dlizcano.github.io/Intro_R_espacial_light/dia1.html): First day of the introductory spatial R course.
+- [Spatial R Day 2](https://dlizcano.github.io/Intro_R_espacial_light/dia2.html): Second day of the introductory spatial R course.
+- [About Spatial R Light](https://dlizcano.github.io/Intro_R_espacial_light/about.html): Information about the introductory spatial R course.
+- [Spatial Data Lite AM](https://dlizcano.github.io/spatialdata_lite/AM.html): Morning session content for spatial data lite.
+- [Spatial Data Lite PM](https://dlizcano.github.io/spatialdata_lite/PM.html): Afternoon session content for spatial data lite.
+- [About Spatial Data Lite](https://dlizcano.github.io/spatialdata_lite/about.html): Information about the spatial data lite content.
+- [Introduction to R - Intro](https://dlizcano.github.io/IntroR/intro.html): Introduction to the R programming language.
+- [Creating Simple Objects in R](https://dlizcano.github.io/IntroR/creando-objetos-simples.html): Learn to create basic objects in R.
+- [Matrices in R](https://dlizcano.github.io/IntroR/matrices.html): Understand and create matrices in R.
+- [Tables in R](https://dlizcano.github.io/IntroR/tablas.html): Learn about working with tables in R.
+- [Creating and Indexing Lists in R](https://dlizcano.github.io/IntroR/creaci%C3%B3n-y-e-indexaci%C3%B3n-de-listas.html): Learn to create and index lists in R.
+- [Creating Functions in R](https://dlizcano.github.io/IntroR/creación-de-funciones.html): Learn how to create your own functions in R.
+- [Creating Loops in R](https://dlizcano.github.io/IntroR/creación-de-bucles.html): Understand and implement loops in R.
+- [Models in R](https://dlizcano.github.io/IntroR/modelos-en-r.html): Introduction to statistical modeling in R.
+- [Linear Regression Model in R](https://dlizcano.github.io/IntroR/modelo-de-regresi%C3%B3n-lineal.html): Learn to build linear regression models in R.
+- [Distribution Models in R](https://dlizcano.github.io/IntroR/modelos-de-distribuci%C3%B3n.html): Explore distribution modeling techniques in R.
+- [R Introduction Bibliography](https://dlizcano.github.io/IntroR/bibliograf%C3%ADa.html): List of references for the R introduction course.
+- [R for Modeling](https://dlizcano.github.io/IntroOccuPresent/R_toModel.html): Using R for statistical modeling.
+- [Modeling Occupancy Data](https://dlizcano.github.io/IntroOccuPresent/modelOccuData.html): Learn to model occupancy data in R.
+- [Unmarked Package 101](https://dlizcano.github.io/IntroOccuPresent/unmarked_101.html): Introduction to the 'unmarked' package for occupancy.
+- [Other Hierarchical Models](https://dlizcano.github.io/IntroOccuPresent/Otros_modelos_jerarquicos.html): Explore other types of hierarchical models.
+- [IVCCM Occupancy Presentations](https://dlizcano.github.io/IntroOccuPresent/index_ivccm.html): Occupancy modeling presentations for IVCCM.
+- [Piamonte Occupancy Presentations](https://dlizcano.github.io/IntroOccuPresent/index_Piamonte.html): Occupancy modeling presentations for Piamonte.
+- [Camera Trapping (Spanish)](https://dlizcano.github.io/spanish/Trampas-Camara/): Guide to camera trapping techniques in Spanish.
+- [Acoustic Monitoring (Spanish)](https://dlizcano.github.io/spanish/Monotoreo-Acustico/): Learn about acoustic monitoring methods in Spanish.
+- [Pandemic Reflections (Spanish)](https://dlizcano.github.io/spanish/Reflexiones-de-pandemia/): Personal reflections on the pandemic in Spanish.
+- [Mapping with R](https://dlizcano.github.io/english/Maps-using-R/): Learn to create maps using R.
+- [Camera Trapping with Lain (Spanish)](https://dlizcano.github.io/spanish/Fototrampeo-con-Lain/): Guide to camera trapping using Lain in Spanish.
+- [2019 Summary (Spanish)](https://dlizcano.github.io/spanish/Resumen-del-2019/): Review of activities and achievements in 2019 (Spanish).
+- [Animated Fire Map (Spanish)](https://dlizcano.github.io/spanish/Mapa-Animado-Fuegos/): Create an animated map of fires in Spanish.
+- [Returning to Colombia](https://dlizcano.github.io/english/Going-back-to-Colombia/): Personal account of returning to Colombia.
+- [Abundance and Occupancy Methods (Spanish)](https://dlizcano.github.io/spanish/Abundancia-y-metodos-de-ocupacion/): Learn about abundance and occupancy estimation methods in Spanish.
+- [Downloading Flickr Albums (Spanish)](https://dlizcano.github.io/spanish/Bajando-un-album-completo-de-Flickr/): Guide to downloading entire Flickr albums in Spanish.
+- [Research at ULEAM Ecuador (Spanish)](https://dlizcano.github.io/spanish/Investigacion-en-la-ULEAM-Ecuador/): Overview of research activities at ULEAM, Ecuador (Spanish).
+- [Reacting to Google Street View](https://dlizcano.github.io/english/photo/Reacting-to-Google-Street-View/): Explore reactions and uses of Google Street View imagery.
+- [Politics and Education in Ecuador (Spanish)](https://dlizcano.github.io/spanish/Politica-y-Educacion-en-Ecuador/): Discussion on politics and education in Ecuador (Spanish).
+- [Camera Trapping in the Amazon](https://dlizcano.github.io/english/Camera-Trapping-in-the-Amazon/): Learn about camera trapping efforts in the Amazon.
+- [Mapping Research Group Creation](https://dlizcano.github.io/english/Maping-research-group-creation/): Guide to creating research groups using mapping tools.
+- [Research Group Calendar (Spanish)](https://dlizcano.github.io/spanish/Calendar-research-groups/): Learn about using calendars for research groups (Spanish).
+- [Science in Colombia (Spanish)](https://dlizcano.github.io/spanish/Science-in-Colombia/): Discussion on the state of science in Colombia (Spanish).
+- [Evaluating Science in Colombia (Spanish)](https://dlizcano.github.io/spanish/New-system-to-evaluate-science-in-Colombia/): Explore a new system for evaluating science in Colombia (Spanish).
+- [Mammal Biodiversity in Colombia](https://dlizcano.github.io/english/Mammal-Biodiversity-in-Colombia/): Learn about mammal biodiversity in Colombia.
+- [Opinion Mining from Tweets](https://dlizcano.github.io/english/Opinion-Mining-Tweets/): Learn techniques for opinion mining using Twitter data.
+- [Mountain Tapir Records](https://dlizcano.github.io/english/Mountain-Tapir-Records/): Explore records and data related to mountain tapirs.
+- [What Google Knows](https://dlizcano.github.io/english/Google-knows/): Discussion on information gathered by Google.
+- [First Post on GitHub](https://dlizcano.github.io/english/1st-post-in-github/): The very first blog post published on GitHub.
+- [Stacking Models for Camera Traps](https://dlizcano.github.io/cameratrap/posts/2024-07-17-stackmodel/index.html): Learn to stack models for camera trap data analysis.
+- [Camera Trap Data Exploration](https://dlizcano.github.io/cameratrap/dataexploration.html): Guide to exploring camera trap datasets.
+- [Camera Trap Biodiversity Analysis](https://dlizcano.github.io/cameratrap/biodiversity.html): Analyze biodiversity using camera trap data.
+- [About Camera Trap Projects](https://dlizcano.github.io/cameratrap/about.html): Information about the camera trap project resources.
+- [Why Occupancy Modeling?](https://dlizcano.github.io/occu_book/why.html): Understand the importance and applications of occupancy modeling.
+- [Occupancy Modeling Basics](https://dlizcano.github.io/occu_book/occu.html): Learn the core concepts of occupancy modeling.
+- [Occupancy Modeling Example](https://dlizcano.github.io/occu_book/example.html): Work through a practical example of occupancy modeling.
+- [Occupancy Modeling Functions](https://dlizcano.github.io/occu_book/function1.html): Explore key functions for occupancy modeling in R.
+- [Using the 'unmarked' Package](https://dlizcano.github.io/occu_book/unmarked.html): Guide to using the 'unmarked' package for occupancy models.
+- [Bayesian Occupancy Models](https://dlizcano.github.io/occu_book/bayesian.html): Introduction to Bayesian approaches for occupancy modeling.
+- [R Session Info and Packages](https://dlizcano.github.io/occu_book/r-session-information-and-packages-used.html): Details on R session and packages used in the book.
+- [Occupancy Book References](https://dlizcano.github.io/occu_book/references.html): List of references cited in the occupancy modeling book.
+- [Stacking Models for Camera Traps](https://dlizcano.github.io/cameratrap/posts/2024-12-25-stackmodel/index.html): Learn to stack models for camera trap data analysis.
+- [About Uniandes Projects](https://dlizcano.github.io/Uniandes/about.html): Information about the Uniandes project resources.
+- [Occupancy Modeling at Uniandes](https://dlizcano.github.io/Uniandes/Ocupacion.html): Learn about occupancy modeling resources from Uniandes.
+- [About WCS Camera Trap](https://dlizcano.github.io/WCS-CameraTrap/about.html): Information about the WCS Camera Trap resources.
+- [Introduction to Occupancy Book](https://dlizcano.github.io/IntroOccuBook/intro.html): Get started with the introductory occupancy modeling book.
+- [Why Occupancy Modeling?](https://dlizcano.github.io/IntroOccuBook/why.html): Understand the rationale behind occupancy modeling.
+- [Occupancy Modeling Concepts](https://dlizcano.github.io/IntroOccuBook/occu.html): Core concepts of occupancy modeling explained.
+- [Occupancy Modeling Example](https://dlizcano.github.io/IntroOccuBook/example.html): Work through a practical occupancy modeling example.
+- [Occupancy Modeling Functions](https://dlizcano.github.io/IntroOccuBook/function1.html): Key functions for occupancy modeling in R.
+- [Using 'unmarked' Package](https://dlizcano.github.io/IntroOccuBook/unmarked.html): Guide to the 'unmarked' package for occupancy analysis.
+- [Bayesian Occupancy Models](https://dlizcano.github.io/IntroOccuBook/bayesian.html): Introduction to Bayesian methods for occupancy modeling.
+- [R Session Info and Packages](https://dlizcano.github.io/IntroOccuBook/informaci%C3%B3n-de-la-sesi%C3%B3n-de-r-y-los-paquetes-usados.html): Details on R session and packages used in the book.
+- [Intro Occupancy Book References](https://dlizcano.github.io/IntroOccuBook/references.html): References cited in the introductory occupancy modeling book.
+- [Occupancy Modeling](https://dlizcano.github.io/occu_multi_season/ocupacion.html): Learn about occupancy modeling techniques.
+- [R Introduction Requirements](https://dlizcano.github.io/IntroR/requisitos.html): Learn the prerequisites for using R.
+- [R Introduction First Steps](https://dlizcano.github.io/IntroR/primeros-pasos.html): Take your first steps in learning R.
+- [Vectors in R](https://dlizcano.github.io/IntroR/vectores.html): Understand and create vectors in R.
+- [Basic Vector Operations in R](https://dlizcano.github.io/IntroR/operaciones-basicas-con-vectores.html): Perform basic operations on vectors in R.
+- [Inspecting Vectors in R](https://dlizcano.github.io/IntroR/inspeccionando-vectores.html): Learn how to inspect vectors in R.
+- [Viewing Data Frames in R](https://dlizcano.github.io/IntroR/ver-data-frames.html): Learn how to view and inspect data frames in R.
+- [Indexing Data Frames in R](https://dlizcano.github.io/IntroR/indexar-data-frames.html): Learn how to index and subset data frames in R.
+- [Creating New Columns in R](https://dlizcano.github.io/IntroR/crear-una-columna-nueva.html): Learn to add new columns to data frames in R.
+- [Visualizing Tables Graphically in R](https://dlizcano.github.io/IntroR/visualizar-la-tabla-graficamente.html): Learn to create graphical visualizations of tables in R.
+- [Convert to Function in R](https://dlizcano.github.io/IntroR/convirtamolo-en-funci%C3%B3n.html): Learn to convert code into functions in R.
+- [Mean Model in R](https://dlizcano.github.io/IntroR/modelo-de-la-media.html): Learn to build a mean model in R.
+- [Simple Linear Regression in R](https://dlizcano.github.io/IntroR/regresi%C3%B3n-lineal-simple.html): Learn simple linear regression in R.
+- [Multiple Linear Regression in R](https://dlizcano.github.io/IntroR/regresi%C3%B3n-lineal-con-2-o-m%C3%A1s-predictores.html): Learn multiple linear regression in R.
+- [Binomial Models in R](https://dlizcano.github.io/IntroR/binomial.html): Learn binomial regression models in R.
+- [Poisson Models in R](https://dlizcano.github.io/IntroR/poisson.html): Learn Poisson regression models in R.
+- [Normal/Gaussian Models in R](https://dlizcano.github.io/IntroR/normal-gausiana.html): Learn normal/Gaussian models in R.
+- [Animal Activity Index](https://dlizcano.github.io/activity/index.html): Index for animal activity analysis.
+- [About Animal Activity](https://dlizcano.github.io/activity/about.html): Information about the animal activity project.
+- [Spatial Single-Species Occupancy](https://dlizcano.github.io/cameratrap/posts/2025-06-01-spatial-single-species-occupancy/index.html): Learn spatial single-species occupancy modeling.
+- [Single-Season Occupancy Models](https://dlizcano.github.io/cameratrap/posts/2024-07-29-sigle-season-occupancy/index.html): Learn single-season occupancy modeling techniques.
+- [Multi-Species Interacting Occupancy](https://dlizcano.github.io/cameratrap/posts/2024-07-05-multi-species-interacting-occupancy/index.html): Model multi-species interactions using occupancy.
+- [Visualizing Camera Trap Data](https://dlizcano.github.io/cameratrap/posts/2024-06-15-visualizing-the-data/index.html): Learn effective ways to visualize camera trap data.
+- [WCS Camera Trap](https://dlizcano.github.io/WCS-CameraTrap/): Information and resources for WCS camera trap initiatives.
+- [Occupancy Modeling](https://dlizcano.github.io/occu_multi_season/ocupacion.html): Learn about occupancy modeling techniques.
+- [R Introduction Requirements](https://dlizcano.github.io/IntroR/requisitos.html): Learn the prerequisites for using R.
+- [R Introduction First Steps](https://dlizcano.github.io/IntroR/primeros-pasos.html): Take your first steps in learning R.
+- [Vectors in R](https://dlizcano.github.io/IntroR/vectores.html): Understand and create vectors in R.
+- [Basic Vector Operations in R](https://dlizcano.github.io/IntroR/operaciones-basicas-con-vectores.html): Perform basic operations on vectors in R.
+- [Inspecting Vectors in R](https://dlizcano.github.io/IntroR/inspeccionando-vectores.html): Learn how to inspect vectors in R.
+- [Viewing Data Frames in R](https://dlizcano.github.io/IntroR/ver-data-frames.html): Learn how to view and inspect data frames in R.
+- [Indexing Data Frames in R](https://dlizcano.github.io/IntroR/indexar-data-frames.html): Learn how to index and subset data frames in R.
+- [Creating New Columns in R](https://dlizcano.github.io/IntroR/crear-una-columna-nueva.html): Learn to add new columns to data frames in R.
+- [Visualizing Tables Graphically in R](https://dlizcano.github.io/IntroR/visualizar-la-tabla-graficamente.html): Learn to create graphical visualizations of tables in R.
+- [Convert to Function in R](https://dlizcano.github.io/IntroR/convirtamolo-en-funci%C3%B3n.html): Learn to convert code into functions in R.
+- [Mean Model in R](https://dlizcano.github.io/IntroR/modelo-de-la-media.html): Learn to build a mean model in R.
+- [Simple Linear Regression in R](https://dlizcano.github.io/IntroR/regresi%C3%B3n-lineal-simple.html): Learn simple linear regression in R.
+- [Multiple Linear Regression in R](https://dlizcano.github.io/IntroR/regresi%C3%B3n-lineal-con-2-o-m%C3%A1s-predictores.html): Learn multiple linear regression in R.
+- [Binomial Models in R](https://dlizcano.github.io/IntroR/binomial.html): Learn binomial regression models in R.
+- [Poisson Models in R](https://dlizcano.github.io/IntroR/poisson.html): Learn Poisson regression models in R.
+- [Normal/Gaussian Models in R](https://dlizcano.github.io/IntroR/normal-gausiana.html): Learn normal/Gaussian models in R.
+- [Cerrillo Activity](https://dlizcano.github.io/activity/posts/cerrillo/): Analysis of activity patterns for Cerrillo.
+- [Chucha Activity](https://dlizcano.github.io/activity/posts/chucha/): Analysis of activity patterns for Chucha.
+- [Pecari Activity](https://dlizcano.github.io/activity/posts/pecari/): Analysis of activity patterns for Pecari.
+- [Tamandua Activity](https://dlizcano.github.io/activity/posts/tamandua/): Analysis of activity patterns for Tamandua.
+- [Americana Activity](https://dlizcano.github.io/activity/posts/americana/): Analysis of activity patterns for Americana.
+- [Armadillo Activity](https://dlizcano.github.io/activity/posts/armadillo/): Analysis of activity patterns for Armadillo.
+- [Eira Activity](https://dlizcano.github.io/activity/posts/eira/): Analysis of activity patterns for Eira.
+- [Jaguar Activity](https://dlizcano.github.io/activity/posts/jaguar/): Analysis of activity patterns for Jaguar.
+- [Nasua Activity](https://dlizcano.github.io/activity/posts/nasua/): Analysis of activity patterns for Nasua.
+- [Neque Activity](https://dlizcano.github.io/activity/posts/neque/): Analysis of activity patterns for Neque.
+- [Ocelot Activity](https://dlizcano.github.io/activity/posts/ocelot/): Analysis of activity patterns for Ocelot.
+- [Paca Activity](https://dlizcano.github.io/activity/posts/paca/): Analysis of activity patterns for Paca.
+- [Tapirus Activity](https://dlizcano.github.io/activity/posts/tapirus/): Analysis of activity patterns for Tapirus.
+- [Yaguarundi Activity](https://dlizcano.github.io/activity/posts/yaguarundi/): Analysis of activity patterns for Yaguarundi.
+- [Mono Activity](https://dlizcano.github.io/activity/posts/mono/): Analysis of activity patterns for Mono.
+- [Titi Activity](https://dlizcano.github.io/activity/posts/titi/): Analysis of activity patterns for Titi.
+- [Puma Activity](https://dlizcano.github.io/activity/posts/puma/): Analysis of activity patterns for Puma.
+- [Welcome to Activity Posts](https://dlizcano.github.io/activity/posts/welcome/): Introduction to the animal activity posts.
+
+## Blog Articles
+
+- [Year Archive](https://dlizcano.github.io/year-archive/): Browse blog posts by year.
+- [Page 2](https://dlizcano.github.io/page2/): Second page of blog posts.
+- [Page 3](https://dlizcano.github.io/page3/): Third page of blog posts.
+- [Page 4](https://dlizcano.github.io/page4/): Fourth page of blog posts.
+- [Page 5](https://dlizcano.github.io/page5/): Fifth page of blog posts.
+- [Reacting to Google Street View](https://dlizcano.github.io/english/photo/Reacting-to-Google-Street-View/): Explore reactions and uses of Google Street View imagery.
+- [From Ecuador 01](https://dlizcano.github.io/photo/english/From-Ecuador-01/): Photographic post from Ecuador.
+- [Cherry Blossom Photo](https://dlizcano.github.io/english/photo/Cherry-blossom/): Photographic post about cherry blossoms.
+- [First Post on GitHub](https://dlizcano.github.io/english/1st-post-in-github/): The very first blog post published on GitHub.
+
+## Resources and Data
+
+- [Camera Trap Projects](https://dlizcano.github.io/cameratrap): Discover projects and resources related to camera trapping.
+- [Biodiversity Monitoring Course (Spanish)](https://dlizcano.github.io/spanish/Biodiversity-monitoring_course/): Learn about biodiversity monitoring techniques in Spanish.
+- [MammalCol on CRAN](https://dlizcano.github.io/english/mammalcol-is-on-CRAN/): Learn how to use the MammalCol package from CRAN.
+- [Graphing BirdNET GO Sound Data](https://dlizcano.github.io/english/Graph-of-soundlevel-data-from-BirdNET-GO/): Learn to graph sound level data from BirdNET GO.
+- [Soundlevel Data from BirdNET GO](https://dlizcano.github.io/english/Soundlevel-data-from-BirdNET-GO/): Understand sound level data collected with BirdNET GO.
+- [Animating Deforestation Data](https://dlizcano.github.io/english/Animating-Deforestation/): Learn to animate deforestation data using R.
+- [Monitoring Birds with BirdNET (Spanish)](https://dlizcano.github.io/spanish/Monitoreando-aves-con-Birdnet/): Guide to monitoring birds using BirdNET in Spanish.
+- [Starting a Camera Trap Blog](https://dlizcano.github.io/english/Starting-a-camera-trap-blog/): Tips for starting a blog focused on camera trapping.
+- [Visual Resume 2022](https://dlizcano.github.io/content/Diego_Lizcano_VisualRresume_2022.pdf): Download Diego J. Lizcano's visual resume from 2022.
+- [CV Lizcano 2024](https://dlizcano.github.io/content/CV_Lizcano_2024.pdf): Download Diego J. Lizcano's Curriculum Vitae from 2024.
+- [Diego Lizcano Resume Two Pages](https://dlizcano.github.io/content/Diego_Lizcano_resume_twoPages.pdf): Download Diego J. Lizcano's two-page resume.
+- [Species Diversity Analysis](https://dlizcano.github.io/cameratrap/posts/2024-06-25-species-diversity/index.html): Analyze species diversity using camera trap data.
+- [Occupancy Book Index](https://dlizcano.github.io/occu_book/index.html): Index for the occupancy modeling book.
+- [Uniandes Projects Index](https://dlizcano.github.io/Uniandes/index.html): Index for projects related to Uniandes.
+- [WCS Camera Trap Index](https://dlizcano.github.io/WCS-CameraTrap/index.html): Index for WCS Camera Trap resources.
+- [Intro Occupancy Book Index](https://dlizcano.github.io/IntroOccuBook/index.html): Index for the introductory occupancy book.
+- [Multi-Season Occupancy Index](https://dlizcano.github.io/occu_multi_season/index.html): Index for multi-season occupancy modeling content.
+- [Intro Spatial R Light Index](https://dlizcano.github.io/Intro_R_espacial_light/index.html): Index for the introductory spatial R course.
+- [Spatial Data Lite Index](https://dlizcano.github.io/spatialdata_lite/index.html): Index for the spatial data lite content.
+- [Introduction to R Index](https://dlizcano.github.io/IntroR/index.html): Index for the Introduction to R course.
+- [Occupancy Presentations Index](https://dlizcano.github.io/IntroOccuPresent/index.html): Index for occupancy modeling presentations.
+- [Colciencias Calendar PDF](https://dlizcano.github.io/images/Colciencias/calendar_big.pdf): Download a PDF calendar related to Colciencias.
+- [Map Chart](https://dlizcano.github.io/content/map_chart.html): Interactive map chart visualization.
+- [Content Page 2](https://dlizcano.github.io/content/2.html): Second content page.
+- [Species Richness Analysis](https://dlizcano.github.io/cameratrap/posts/2024-12-15-riqueza/index.html): Analyze species richness from camera trap data.
+- [BirdNETPi Cajic](https://dlizcano.github.io/content/BirdNetPi_Cajic.html): Information about BirdNETPi in Cajicá.
+- [Camera Trap Data Exploration](https://dlizcano.github.io/cameratrap/dataexploration.html): Guide to exploring camera trap datasets.
+- [Camera Trap Biodiversity Analysis](https://dlizcano.github.io/cameratrap/biodiversity.html): Analyze biodiversity using camera trap data.
+- [About Camera Trap Projects](https://dlizcano.github.io/cameratrap/about.html): Information about the camera trap project resources.
+- [Why Occupancy Modeling?](https://dlizcano.github.io/occu_book/why.html): Understand the importance and applications of occupancy modeling.
+- [Occupancy Modeling Basics](https://dlizcano.github.io/occu_book/occu.html): Learn the core concepts of occupancy modeling.
+- [Occupancy Modeling Example](https://dlizcano.github.io/occu_book/example.html): Work through a practical example of occupancy modeling.
+- [Occupancy Modeling Functions](https://dlizcano.github.io/occu_book/function1.html): Explore key functions for occupancy modeling in R.
+- [Using the 'unmarked' Package](https://dlizcano.github.io/occu_book/unmarked.html): Guide to using the 'unmarked' package for occupancy models.
+- [Bayesian Occupancy Models](https://dlizcano.github.io/occu_book/bayesian.html): Introduction to Bayesian approaches for occupancy modeling.
+- [R Session Info and Packages](https://dlizcano.github.io/occu_book/r-session-information-and-packages-used.html): Details on R session and packages used in the book.
+- [Occupancy Book References](https://dlizcano.github.io/occu_book/references.html): List of references cited in the occupancy modeling book.
+- [Stacking Models for Camera Traps](https://dlizcano.github.io/cameratrap/posts/2024-12-25-stackmodel/index.html): Learn to stack models for camera trap data analysis.
+- [About Uniandes Projects](https://dlizcano.github.io/Uniandes/about.html): Information about the Uniandes project resources.
+- [Occupancy Modeling at Uniandes](https://dlizcano.github.io/Uniandes/Ocupacion.html): Learn about occupancy modeling resources from Uniandes.
+- [About WCS Camera Trap](https://dlizcano.github.io/WCS-CameraTrap/about.html): Information about the WCS Camera Trap resources.
+- [Introduction to Occupancy Book](https://dlizcano.github.io/IntroOccuBook/intro.html): Get started with the introductory occupancy modeling book.
+- [Why Occupancy Modeling?](https://dlizcano.github.io/IntroOccuBook/why.html): Understand the rationale behind occupancy modeling.
+- [Occupancy Modeling Concepts](https://dlizcano.github.io/IntroOccuBook/occu.html): Core concepts of occupancy modeling explained.
+- [Occupancy Modeling Example](https://dlizcano.github.io/IntroOccuBook/example.html): Work through a practical occupancy modeling example.
+- [Occupancy Modeling Functions](https://dlizcano.github.io/IntroOccuBook/function1.html): Key functions for occupancy modeling in R.
+- [Using 'unmarked' Package](https://dlizcano.github.io/IntroOccuBook/unmarked.html): Guide to the 'unmarked' package for occupancy analysis.
+- [Bayesian Occupancy Models](https://dlizcano.github.io/IntroOccuBook/bayesian.html): Introduction to Bayesian methods for occupancy modeling.
+- [R Session Info and Packages](https://dlizcano.github.io/IntroOccuBook/informaci%C3%B3n-de-la-sesi%C3%B3n-de-r-y-los-paquetes-usados.html): Details on R session and packages used in the book.
+- [Intro Occupancy Book References](https://dlizcano.github.io/IntroOccuBook/references.html): References cited in the introductory occupancy modeling book.
+- [Multi-Season Occupancy Part 1](https://dlizcano.github.io/occu_multi_season/parte1.html): First part of the guide to multi-season occupancy models.
+- [Multi-Season Occupancy Part 2](https://dlizcano.github.io/occu_multi_season/parte2.html): Second part of the guide to multi-season occupancy models.
+- [Multi-Season Occupancy Part 3](https://dlizcano.github.io/occu_multi_season/parte3.html): Third part of the guide to multi-season occupancy models.
+- [About Multi-Season Occupancy](https://dlizcano.github.io/occu_multi_season/about.html): Information about the multi-season occupancy modeling content.
+- [Spatial R Day 1](https://dlizcano.github.io/Intro_R_espacial_light/dia1.html): First day of the introductory spatial R course.
+- [Spatial R Day 2](https://dlizcano.github.io/Intro_R_espacial_light/dia2.html): Second day of the introductory spatial R course.
+- [About Spatial R Light](https://dlizcano.github.io/Intro_R_espacial_light/about.html): Information about the introductory spatial R course.
+- [Spatial Data Lite AM](https://dlizcano.github.io/spatialdata_lite/AM.html): Morning session content for spatial data lite.
+- [Spatial Data Lite PM](https://dlizcano.github.io/spatialdata_lite/PM.html): Afternoon session content for spatial data lite.
+- [About Spatial Data Lite](https://dlizcano.github.io/spatialdata_lite/about.html): Information about the spatial data lite content.
+- [Introduction to R - Intro](https://dlizcano.github.io/IntroR/intro.html): Introduction to the R programming language.
+- [Creating Simple Objects in R](https://dlizcano.github.io/IntroR/creando-objetos-simples.html): Learn to create basic objects in R.
+- [Matrices in R](https://dlizcano.github.io/IntroR/matrices.html): Understand and create matrices in R.
+- [Tables in R](https://dlizcano.github.io/IntroR/tablas.html): Learn about working with tables in R.
+- [Creating and Indexing Lists in R](https://dlizcano.github.io/IntroR/creaci%C3%B3n-y-e-indexaci%C3%B3n-de-listas.html): Learn to create and index lists in R.
+- [Creating Functions in R](https://dlizcano.github.io/IntroR/creación-de-funciones.html): Learn how to create your own functions in R.
+- [Creating Loops in R](https://dlizcano.github.io/IntroR/creación-de-bucles.html): Understand and implement loops in R.
+- [Models in R](https://dlizcano.github.io/IntroR/modelos-en-r.html): Introduction to statistical modeling in R.
+- [Linear Regression Model in R](https://dlizcano.github.io/IntroR/modelo-de-regresi%C3%B3n-lineal.html): Learn to build linear regression models in R.
+- [Distribution Models in R](https://dlizcano.github.io/IntroR/modelos-de-distribuci%C3%B3n.html): Explore distribution modeling techniques in R.
+- [R Introduction Bibliography](https://dlizcano.github.io/IntroR/bibliograf%C3%ADa.html): List of references for the R introduction course.
+- [R for Modeling](https://dlizcano.github.io/IntroOccuPresent/R_toModel.html): Using R for statistical modeling.
+- [Modeling Occupancy Data](https://dlizcano.github.io/IntroOccuPresent/modelOccuData.html): Learn to model occupancy data in R.
+- [Unmarked Package 101](https://dlizcano.github.io/IntroOccuPresent/unmarked_101.html): Introduction to the 'unmarked' package for occupancy.
+- [Other Hierarchical Models](https://dlizcano.github.io/IntroOccuPresent/Otros_modelos_jerarquicos.html): Explore other types of hierarchical models.
+- [IVCCM Occupancy Presentations](https://dlizcano.github.io/IntroOccuPresent/index_ivccm.html): Occupancy modeling presentations for IVCCM.
+- [Piamonte Occupancy Presentations](https://dlizcano.github.io/IntroOccuPresent/index_Piamonte.html): Occupancy modeling presentations for Piamonte.
+- [Camera Trapping (Spanish)](https://dlizcano.github.io/spanish/Trampas-Camara/): Guide to camera trapping techniques in Spanish.
+- [Acoustic Monitoring (Spanish)](https://dlizcano.github.io/spanish/Monotoreo-Acustico/): Learn about acoustic monitoring methods in Spanish.
+- [Pandemic Reflections (Spanish)](https://dlizcano.github.io/spanish/Reflexiones-de-pandemia/): Personal reflections on the pandemic in Spanish.
+- [Mapping with R](https://dlizcano.github.io/english/Maps-using-R/): Learn to create maps using R.
+- [Camera Trapping with Lain (Spanish)](https://dlizcano.github.io/spanish/Fototrampeo-con-Lain/): Guide to camera trapping using Lain in Spanish.
+- [2019 Summary (Spanish)](https://dlizcano.github.io/spanish/Resumen-del-2019/): Review of activities and achievements in 2019 (Spanish).
+- [Animated Fire Map (Spanish)](https://dlizcano.github.io/spanish/Mapa-Animado-Fuegos/): Create an animated map of fires in Spanish.
+- [Returning to Colombia](https://dlizcano.github.io/english/Going-back-to-Colombia/): Personal account of returning to Colombia.
+- [Abundance and Occupancy Methods (Spanish)](https://dlizcano.github.io/spanish/Abundancia-y-metodos-de-ocupacion/): Learn about abundance and occupancy estimation methods in Spanish.
+- [Downloading Flickr Albums (Spanish)](https://dlizcano.github.io/spanish/Bajando-un-album-completo-de-Flickr/): Guide to downloading entire Flickr albums in Spanish.
+- [Research at ULEAM Ecuador (Spanish)](https://dlizcano.github.io/spanish/Investigacion-en-la-ULEAM-Ecuador/): Overview of research activities at ULEAM, Ecuador (Spanish).
+- [Camera Trapping in the Amazon](https://dlizcano.github.io/english/Camera-Trapping-in-the-Amazon/): Learn about camera trapping efforts in the Amazon.
+- [Mapping Research Group Creation](https://dlizcano.github.io/english/Maping-research-group-creation/): Guide to creating research groups using mapping tools.
+- [Research Group Calendar (Spanish)](https://dlizcano.github.io/spanish/Calendar-research-groups/): Learn about using calendars for research groups (Spanish).
+- [Science in Colombia (Spanish)](https://dlizcano.github.io/spanish/Science-in-Colombia/): Discussion on the state of science in Colombia (Spanish).
+- [Evaluating Science in Colombia (Spanish)](https://dlizcano.github.io/spanish/New-system-to-evaluate-science-in-Colombia/): Explore a new system for evaluating science in Colombia (Spanish).
+- [Mammal Biodiversity in Colombia](https://dlizcano.github.io/english/Mammal-Biodiversity-in-Colombia/): Learn about mammal biodiversity in Colombia.
+- [Opinion Mining from Tweets](https://dlizcano.github.io/english/Opinion-Mining-Tweets/): Learn techniques for opinion mining using Twitter data.
+- [Mountain Tapir Records](https://dlizcano.github.io/english/Mountain-Tapir-Records/): Explore records and data related to mountain tapirs.
+- [What Google Knows](https://dlizcano.github.io/english/Google-knows/): Discussion on information gathered by Google.
+- [Stacking Models for Camera Traps](https://dlizcano.github.io/cameratrap/posts/2024-07-17-stackmodel/index.html): Learn to stack models for camera trap data analysis.
+- [Single-Season Occupancy Models](https://dlizcano.github.io/cameratrap/posts/2024-07-29-sigle-season-occupancy/index.html): Learn single-season occupancy modeling techniques.
+- [Multi-Species Interacting Occupancy](https://dlizcano.github.io/cameratrap/posts/2024-07-05-multi-species-interacting-occupancy/index.html): Model multi-species interactions using occupancy.
+- [Visualizing Camera Trap Data](https://dlizcano.github.io/cameratrap/posts/2024-06-15-visualizing-the-data/index.html): Learn effective ways to visualize camera trap data.
+
+## Miscellaneous
+
+- [RSS Feed](https://dlizcano.github.io/feed.xml): Subscribe to the website's RSS feed for updates.
+- [Tags](https://dlizcano.github.io/tags/): Browse content by tags.
+- [Categories](https://dlizcano.github.io/categories/): Browse content by categories.
+
+---
+
+This file was generated for dlizcano.github.io using the [LLMs.txt Generator Tool](https://llmrefs.com/tools/llms-txt-generator)
